@@ -166,12 +166,28 @@ input:checked + .slider:before {
 }
 
 /* --- Detailed View Column Styling --- */
-.challenge-col {
-    display: none; /* Hidden by default */
+#leaderboard-table th.challenge-col,
+#leaderboard-table td.challenge-col {
+    max-width: 0;
+    min-width: 0; /* Override table cell default min-width */
+    padding: 0;   /* Collapse all padding */
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-width 0.5s ease, min-width 0.5s ease, padding 0.5s ease, opacity 0.3s ease, border-width 0.5s ease;
+    border-width: 0;
+    pointer-events: none; /* Disable clicks when hidden */
 }
 
-#leaderboard-table.show-details .challenge-col {
-    display: table-cell; /* Shown when table has class */
+#leaderboard-table.show-details th.challenge-col,
+#leaderboard-table.show-details td.challenge-col {
+    max-width: 150px;
+    min-width: auto; /* Restore default min-width behavior */
+    padding: 15px 18px; /* Restore padding */
+    opacity: 1;
+    border-left: 1px solid rgba(0, 245, 212, 0.2);
+    border-right: 1px solid rgba(0, 245, 212, 0.2);
+    pointer-events: auto; /* Re-enable clicks when shown */
 }
 
 /* --- Linked Header Styling --- */
