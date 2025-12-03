@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geoguessr League</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Geoguessr League</h1>
+        <p>Leaderboard updated automatically. See you on the roads!</p>
+        <div id="leaderboard-container">
+            <table id="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player</th>
+                        <th>Total Score</th>
+                        <th>Games Played</th>
+                        <th>Average Score</th>
+                        <th>Wins</th>
+                        <th>Perfect Rounds</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body">
+                    <!-- Data will be injected here by JavaScript -->
+                </tbody>
+            </table>
+            <div id="loading">Loading leaderboard...</div>
+            <div id="error" style="display: none; color: red;"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

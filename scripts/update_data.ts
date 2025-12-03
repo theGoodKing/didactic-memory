@@ -1,0 +1,145 @@
+// scripts/update_data.ts
+
+// --- Interfaces for strong typing ---
+interface Config {
+  cookie: string;
+  challengeIds: string[];
+}
+
+interface LeaderboardPlayer {
+  rank: number;
+  playerName: string;
+  totalScore: number;
+  gamesPlayed: number;
+  averageScore: number;
+  challengesWon: number;
+  perfectRounds: number;
+}
+
+// --- Main function ---
+async function updateLeaderboard() {
+  console.log("Starting leaderboard update...");
+
+  // 1. Read configuration
+  let config: Config;
+  try {
+    const configContent = await Deno.readTextFile("./config.json");
+    config = JSON.parse(configContent);
+    if (!config.cookie || !config.challengeIds || config.challengeIds.length === 0) {
+      throw new Error("Invalid config.json. Ensure 'cookie' and 'challengeIds' are set.");
+    }
+  } catch (error) {
+    console.error(`Error reading or parsing config.json: ${error.message}`);
+    Deno.exit(1);
+  }
+  console.log(`Found ${config.challengeIds.length} challenges in config.`);
+
+  // 2. Fetch and aggregate scores
+  const aggregatedScores = new Map<string, {
+    playerName: string;
+    totalScore: number;
+    gamesPlayed: number;
+    challengesWon: number;
+    perfectRounds: number;
+  }>();
+
+  for (const challengeId of config.challengeIds) {
+    console.log(`Fetching data for challenge: ${challengeId}`);
+    try {
+      let cookieHeader = config.cookie;
+      if (!cookieHeader.trim().startsWith("_ncfa=")) {
+        cookieHeader = `_ncfa=${cookieHeader}`;
+      }
+
+      const res = await fetch(`https://www.geoguessr.com/api/v3/results/highscores/${challengeId}?limit=100`, {
+        headers: { "Cookie": cookieHeader },
+      });
+
+      if (!res.ok) {
+        throw new Error(`API request failed with status ${res.status}`);
+      }
+
+      const results = await res.json();
+      if (!results.items || !Array.isArray(results.items)) {
+        throw new Error("API response is not in the expected format.");
+      }
+
+      // Find the winner of this challenge
+      let winnerId: string | null = null;
+      let maxScore = -1;
+      for (const item of results.items) {
+        const score = parseInt(item.game.player.totalScore.amount, 10);
+        if (score > maxScore) {
+          maxScore = score;
+          winnerId = item.game.player.id;
+        }
+      }
+
+      // Process each player's results for the challenge
+      for (const item of results.items) {
+        const player = item.game.player;
+        const score = parseInt(player.totalScore.amount, 10);
+        const playerName = player.nick;
+        const playerId = player.id;
+
+        if (isNaN(score)) {
+          console.warn(`Could not parse score for player: ${playerName}. Skipping.`);
+          continue;
+        }
+
+        const existingPlayer = aggregatedScores.get(playerId) || {
+          playerName: playerName,
+          totalScore: 0,
+          gamesPlayed: 0,
+          challengesWon: 0,
+          perfectRounds: 0,
+        };
+
+        existingPlayer.totalScore += score;
+        existingPlayer.gamesPlayed += 1;
+
+        if (playerId === winnerId) {
+          existingPlayer.challengesWon += 1;
+        }
+
+        for (const guess of player.guesses) {
+          if (guess.roundScoreInPoints === 5000) {
+            existingPlayer.perfectRounds += 1;
+          }
+        }
+        
+        aggregatedScores.set(playerId, existingPlayer);
+      }
+    } catch (error) {
+      console.error(`Failed to fetch or process results for challenge ${challengeId}: ${error.message}`);
+    }
+  }
+
+  // 3. Process and rank players, sorting by average score
+  const rankedPlayers: Omit<LeaderboardPlayer, 'rank'>[] = Array.from(aggregatedScores.values())
+    .map(p => ({
+      ...p,
+      averageScore: p.gamesPlayed > 0 ? Math.round(p.totalScore / p.gamesPlayed) : 0,
+    }))
+    .sort((a, b) => b.averageScore - a.averageScore);
+  
+  // 4. Assign ranks
+  const finalLeaderboard: LeaderboardPlayer[] = rankedPlayers.map((p, index) => ({
+    ...p,
+    rank: index + 1,
+  }));
+
+  // 5. Write to data.json
+  try {
+    await Deno.writeTextFile("./docs/data.json", JSON.stringify(finalLeaderboard, null, 2));
+    console.log(`Successfully wrote leaderboard to ./docs/data.json with ${finalLeaderboard.length} players.`);
+  } catch (error) {
+    console.error(`Error writing to file: ${error.message}`);
+    Deno.exit(1);
+  }
+}
+
+// --- Run the script ---
+if (import.meta.main) {
+  updateLeaderboard();
+}
