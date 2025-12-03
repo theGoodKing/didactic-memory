@@ -6,6 +6,11 @@ interface Config {
   challengeIds: string[];
 }
 
+interface ChallengeDetails {
+  id: string;
+  name: string;
+}
+
 interface LeaderboardPlayer {
   rank: number;
   playerName: string;
@@ -14,6 +19,12 @@ interface LeaderboardPlayer {
   averageScore: number;
   challengesWon: number;
   perfectRounds: number;
+  challengeScores: { [challengeId: string]: number };
+}
+
+interface OutputData {
+  challengeDetails: ChallengeDetails[];
+  leaderboard: LeaderboardPlayer[];
 }
 
 // --- Main function ---
@@ -41,7 +52,10 @@ async function updateLeaderboard() {
     gamesPlayed: number;
     challengesWon: number;
     perfectRounds: number;
+    challengeScores: { [challengeId: string]: number };
   }>();
+  
+  const challengeDetails: ChallengeDetails[] = [];
 
   for (const challengeId of config.challengeIds) {
     console.log(`Fetching data for challenge: ${challengeId}`);
@@ -63,6 +77,10 @@ async function updateLeaderboard() {
       if (!results.items || !Array.isArray(results.items)) {
         throw new Error("API response is not in the expected format.");
       }
+
+      // Get map name from the first result (it's the same for all)
+      const mapName = results.items.length > 0 ? results.items[0].game.mapName : 'Unknown Map';
+      challengeDetails.push({ id: challengeId, name: mapName });
 
       // Find the winner of this challenge
       let winnerId: string | null = null;
@@ -93,10 +111,12 @@ async function updateLeaderboard() {
           gamesPlayed: 0,
           challengesWon: 0,
           perfectRounds: 0,
+          challengeScores: {},
         };
 
         existingPlayer.totalScore += score;
         existingPlayer.gamesPlayed += 1;
+        existingPlayer.challengeScores[challengeId] = score;
 
         if (playerId === winnerId) {
           existingPlayer.challengesWon += 1;
@@ -129,9 +149,15 @@ async function updateLeaderboard() {
     rank: index + 1,
   }));
 
-  // 5. Write to data.json
+  // 5. Create final output object
+  const outputData: OutputData = {
+    challengeDetails: challengeDetails,
+    leaderboard: finalLeaderboard,
+  };
+
+  // 6. Write to data.json
   try {
-    await Deno.writeTextFile("./docs/data.json", JSON.stringify(finalLeaderboard, null, 2));
+    await Deno.writeTextFile("./docs/data.json", JSON.stringify(outputData, null, 2));
     console.log(`Successfully wrote leaderboard to ./docs/data.json with ${finalLeaderboard.length} players.`);
   } catch (error) {
     console.error(`Error writing to file: ${error.message}`);
@@ -143,3 +169,4 @@ async function updateLeaderboard() {
 if (import.meta.main) {
   updateLeaderboard();
 }
+

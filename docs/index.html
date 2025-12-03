@@ -14,12 +14,19 @@
             <h1>Geoguessr League</h1>
         </header>
         <p>Leaderboard updated automatically. See you on the roads!</p>
+        <div class="toggle-container">
+            <label class="toggle-switch">
+                <input type="checkbox" id="details-toggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Show Full Details</span>
+        </div>
         <div id="leaderboard-container">
             <table id="leaderboard-table">
                 <thead>
                     <tr>
                         <th>Rank</th>
-                        <th>Player</th>
+                        <th class="player-header">Player</th>
                         <th>Total Score</th>
                         <th>Games Played</th>
                         <th>Average Score</th>
