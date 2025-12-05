@@ -132,18 +132,6 @@
       "rank": 8
     },
     {
-      "playerName": "callum leung",
-      "totalScore": 18353,
-      "gamesPlayed": 1,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18353
-      },
-      "averageScore": 18353,
-      "rank": 9
-    },
-    {
       "playerName": "Joe",
       "totalScore": 17899,
       "gamesPlayed": 1,
@@ -153,6 +141,21 @@
         "iulxNVNhCz4iRote": 17899
       },
       "averageScore": 17899,
+      "rank": 9
+    },
+    {
+      "playerName": "callum leung",
+      "totalScore": 69683,
+      "gamesPlayed": 4,
+      "challengesWon": 0,
+      "perfectRounds": 3,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18353,
+        "3i1on2KFtSvnQMMl": 13456,
+        "iulxNVNhCz4iRote": 22744,
+        "RtYhwKFR2ErNGFY1": 15130
+      },
+      "averageScore": 17421,
       "rank": 10
     },
     {
@@ -260,7 +263,19 @@
       "rank": 18
     },
     {
-      "playerName": "Phil",
+      "playerName": "VolcanicOcean231",
+      "totalScore": 10202,
+      "gamesPlayed": 1,
+      "challengesWon": 0,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "RtYhwKFR2ErNGFY1": 10202
+      },
+      "averageScore": 10202,
+      "rank": 19
+    },
+    {
+      "playerName": "Philbo",
       "totalScore": 19440,
       "gamesPlayed": 2,
       "challengesWon": 0,
@@ -270,7 +285,7 @@
         "iulxNVNhCz4iRote": 10872
       },
       "averageScore": 9720,
-      "rank": 19
+      "rank": 20
     }
   ]
 }
