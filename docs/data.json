@@ -36,17 +36,18 @@
     },
     {
       "playerName": "Richard",
-      "totalScore": 93532,
-      "gamesPlayed": 4,
+      "totalScore": 116591,
+      "gamesPlayed": 5,
       "challengesWon": 2,
-      "perfectRounds": 10,
+      "perfectRounds": 12,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
         "3i1on2KFtSvnQMMl": 23318,
         "iulxNVNhCz4iRote": 21514,
-        "RtYhwKFR2ErNGFY1": 25000
+        "RtYhwKFR2ErNGFY1": 25000,
+        "663ooruVueCTsTyn": 23059
       },
-      "averageScore": 23383,
+      "averageScore": 23318,
       "rank": 2
     },
     {
@@ -81,6 +82,22 @@
       "rank": 4
     },
     {
+      "playerName": "Tomxmclaughlan",
+      "totalScore": 106616,
+      "gamesPlayed": 5,
+      "challengesWon": 0,
+      "perfectRounds": 12,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 17554,
+        "3i1on2KFtSvnQMMl": 19950,
+        "iulxNVNhCz4iRote": 22668,
+        "RtYhwKFR2ErNGFY1": 21961,
+        "663ooruVueCTsTyn": 24483
+      },
+      "averageScore": 21323,
+      "rank": 5
+    },
+    {
       "playerName": "jjgry",
       "totalScore": 20830,
       "gamesPlayed": 1,
@@ -90,21 +107,6 @@
         "BTv0qqcesI1eRJV5": 20830
       },
       "averageScore": 20830,
-      "rank": 5
-    },
-    {
-      "playerName": "Tomxmclaughlan",
-      "totalScore": 82133,
-      "gamesPlayed": 4,
-      "challengesWon": 0,
-      "perfectRounds": 11,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 17554,
-        "3i1on2KFtSvnQMMl": 19950,
-        "iulxNVNhCz4iRote": 22668,
-        "RtYhwKFR2ErNGFY1": 21961
-      },
-      "averageScore": 20533,
       "rank": 6
     },
     {
@@ -124,6 +126,22 @@
       "rank": 7
     },
     {
+      "playerName": "Ibyahmed74",
+      "totalScore": 98189,
+      "gamesPlayed": 5,
+      "challengesWon": 0,
+      "perfectRounds": 4,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18964,
+        "3i1on2KFtSvnQMMl": 13165,
+        "iulxNVNhCz4iRote": 22500,
+        "RtYhwKFR2ErNGFY1": 20743,
+        "663ooruVueCTsTyn": 22817
+      },
+      "averageScore": 19638,
+      "rank": 8
+    },
+    {
       "playerName": "Joe",
       "totalScore": 38245,
       "gamesPlayed": 2,
@@ -134,7 +152,7 @@
         "663ooruVueCTsTyn": 20346
       },
       "averageScore": 19123,
-      "rank": 8
+      "rank": 9
     },
     {
       "playerName": "Jack Bradshaw",
@@ -149,7 +167,7 @@
         "RtYhwKFR2ErNGFY1": 15949
       },
       "averageScore": 18695,
-      "rank": 9
+      "rank": 10
     },
     {
       "playerName": "callum leung",
@@ -165,34 +183,22 @@
         "663ooruVueCTsTyn": 22473
       },
       "averageScore": 18431,
-      "rank": 10
+      "rank": 11
     },
     {
       "playerName": "hayden",
-      "totalScore": 65554,
-      "gamesPlayed": 4,
+      "totalScore": 79261,
+      "gamesPlayed": 5,
       "challengesWon": 0,
       "perfectRounds": 2,
       "challengeScores": {
+        "BTv0qqcesI1eRJV5": 13707,
         "3i1on2KFtSvnQMMl": 19334,
         "iulxNVNhCz4iRote": 19713,
         "RtYhwKFR2ErNGFY1": 11699,
         "663ooruVueCTsTyn": 14808
       },
-      "averageScore": 16389,
-      "rank": 11
-    },
-    {
-      "playerName": "Camille",
-      "totalScore": 31949,
-      "gamesPlayed": 2,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "RtYhwKFR2ErNGFY1": 12636,
-        "663ooruVueCTsTyn": 19313
-      },
-      "averageScore": 15975,
+      "averageScore": 15852,
       "rank": 12
     },
     {
@@ -235,6 +241,22 @@
       "rank": 15
     },
     {
+      "playerName": "Camille",
+      "totalScore": 75839,
+      "gamesPlayed": 5,
+      "challengesWon": 0,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 9245,
+        "3i1on2KFtSvnQMMl": 17589,
+        "iulxNVNhCz4iRote": 17056,
+        "RtYhwKFR2ErNGFY1": 12636,
+        "663ooruVueCTsTyn": 19313
+      },
+      "averageScore": 15168,
+      "rank": 16
+    },
+    {
       "playerName": "Ben Apes",
       "totalScore": 53593,
       "gamesPlayed": 4,
@@ -247,7 +269,7 @@
         "RtYhwKFR2ErNGFY1": 16731
       },
       "averageScore": 13398,
-      "rank": 16
+      "rank": 17
     },
     {
       "playerName": "Chris",
@@ -259,7 +281,7 @@
         "BTv0qqcesI1eRJV5": 12642
       },
       "averageScore": 12642,
-      "rank": 17
+      "rank": 18
     },
     {
       "playerName": "Sophia",
@@ -275,7 +297,7 @@
         "663ooruVueCTsTyn": 15366
       },
       "averageScore": 12205,
-      "rank": 18
+      "rank": 19
     },
     {
       "playerName": "Thistle Windows Aberdeen Ltd",
@@ -287,7 +309,7 @@
         "BTv0qqcesI1eRJV5": 11417
       },
       "averageScore": 11417,
-      "rank": 19
+      "rank": 20
     },
     {
       "playerName": "VolcanicOcean231",
@@ -299,7 +321,7 @@
         "RtYhwKFR2ErNGFY1": 10202
       },
       "averageScore": 10202,
-      "rank": 20
+      "rank": 21
     },
     {
       "playerName": "Philbo",
@@ -313,7 +335,7 @@
         "RtYhwKFR2ErNGFY1": 2283
       },
       "averageScore": 7241,
-      "rank": 21
+      "rank": 22
     }
   ]
 }
