@@ -99,14 +99,16 @@
     },
     {
       "playerName": "jjgry",
-      "totalScore": 20830,
-      "gamesPlayed": 1,
+      "totalScore": 60838,
+      "gamesPlayed": 3,
       "challengesWon": 0,
-      "perfectRounds": 3,
+      "perfectRounds": 8,
       "challengeScores": {
-        "BTv0qqcesI1eRJV5": 20830
+        "BTv0qqcesI1eRJV5": 20830,
+        "3i1on2KFtSvnQMMl": 18732,
+        "iulxNVNhCz4iRote": 21276
       },
-      "averageScore": 20830,
+      "averageScore": 20279,
       "rank": 6
     },
     {
@@ -156,17 +158,18 @@
     },
     {
       "playerName": "Jack Bradshaw",
-      "totalScore": 74780,
-      "gamesPlayed": 4,
+      "totalScore": 94550,
+      "gamesPlayed": 5,
       "challengesWon": 0,
       "perfectRounds": 3,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 15353,
         "3i1on2KFtSvnQMMl": 19745,
         "iulxNVNhCz4iRote": 23733,
-        "RtYhwKFR2ErNGFY1": 15949
+        "RtYhwKFR2ErNGFY1": 15949,
+        "663ooruVueCTsTyn": 19770
       },
-      "averageScore": 18695,
+      "averageScore": 18910,
       "rank": 10
     },
     {
