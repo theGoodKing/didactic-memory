@@ -22,10 +22,14 @@
     },
     {
       "id": "OSJgyOUNN2RYySKg",
-      "name": "Unknown Map"
+      "name": "GeoBettr World - Replayable"
     },
     {
       "id": "jdRWWrgYJHlRSUuV",
+      "name": "Unknown Map"
+    },
+    {
+      "id": "tKXoHKIpSf0681BK",
       "name": "Unknown Map"
     }
   ],
@@ -268,6 +272,23 @@
       "rank": 16
     },
     {
+      "playerName": "Sophia",
+      "totalScore": 82263,
+      "gamesPlayed": 6,
+      "challengesWon": 1,
+      "perfectRounds": 1,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 2257,
+        "3i1on2KFtSvnQMMl": 4526,
+        "iulxNVNhCz4iRote": 23509,
+        "RtYhwKFR2ErNGFY1": 15368,
+        "663ooruVueCTsTyn": 15366,
+        "OSJgyOUNN2RYySKg": 21237
+      },
+      "averageScore": 13711,
+      "rank": 17
+    },
+    {
       "playerName": "Ben Apes",
       "totalScore": 53593,
       "gamesPlayed": 4,
@@ -280,7 +301,7 @@
         "RtYhwKFR2ErNGFY1": 16731
       },
       "averageScore": 13398,
-      "rank": 17
+      "rank": 18
     },
     {
       "playerName": "Chris",
@@ -292,22 +313,6 @@
         "BTv0qqcesI1eRJV5": 12642
       },
       "averageScore": 12642,
-      "rank": 18
-    },
-    {
-      "playerName": "Sophia",
-      "totalScore": 61026,
-      "gamesPlayed": 5,
-      "challengesWon": 0,
-      "perfectRounds": 1,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 2257,
-        "3i1on2KFtSvnQMMl": 4526,
-        "iulxNVNhCz4iRote": 23509,
-        "RtYhwKFR2ErNGFY1": 15368,
-        "663ooruVueCTsTyn": 15366
-      },
-      "averageScore": 12205,
       "rank": 19
     },
     {
