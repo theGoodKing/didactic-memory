@@ -201,6 +201,23 @@
       "rank": 11
     },
     {
+      "playerName": "Camille",
+      "totalScore": 97898,
+      "gamesPlayed": 6,
+      "challengesWon": 1,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 9245,
+        "3i1on2KFtSvnQMMl": 17589,
+        "iulxNVNhCz4iRote": 17056,
+        "RtYhwKFR2ErNGFY1": 12636,
+        "663ooruVueCTsTyn": 19313,
+        "OSJgyOUNN2RYySKg": 22059
+      },
+      "averageScore": 16316,
+      "rank": 12
+    },
+    {
       "playerName": "hayden",
       "totalScore": 79261,
       "gamesPlayed": 5,
@@ -214,7 +231,7 @@
         "663ooruVueCTsTyn": 14808
       },
       "averageScore": 15852,
-      "rank": 12
+      "rank": 13
     },
     {
       "playerName": "Jesse",
@@ -228,7 +245,7 @@
         "663ooruVueCTsTyn": 20229
       },
       "averageScore": 15512,
-      "rank": 13
+      "rank": 14
     },
     {
       "playerName": "thom",
@@ -240,7 +257,7 @@
         "iulxNVNhCz4iRote": 15473
       },
       "averageScore": 15473,
-      "rank": 14
+      "rank": 15
     },
     {
       "playerName": "Nicfriend21",
@@ -253,29 +270,13 @@
         "3i1on2KFtSvnQMMl": 17001
       },
       "averageScore": 15193,
-      "rank": 15
-    },
-    {
-      "playerName": "Camille",
-      "totalScore": 75839,
-      "gamesPlayed": 5,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 9245,
-        "3i1on2KFtSvnQMMl": 17589,
-        "iulxNVNhCz4iRote": 17056,
-        "RtYhwKFR2ErNGFY1": 12636,
-        "663ooruVueCTsTyn": 19313
-      },
-      "averageScore": 15168,
       "rank": 16
     },
     {
       "playerName": "Sophia",
       "totalScore": 82263,
       "gamesPlayed": 6,
-      "challengesWon": 1,
+      "challengesWon": 0,
       "perfectRounds": 1,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 2257,
