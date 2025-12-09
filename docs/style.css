@@ -190,57 +190,68 @@ input:checked + .slider:before {
     pointer-events: auto; /* Re-enable clicks when shown */
 }
 
-/* --- Linked Header Styling --- */
-#leaderboard-table th.challenge-col a {
-    color: inherit; /* Inherit color from the <th> */
-    text-decoration: none; /* Remove underline */
-    cursor: pointer;
-    display: block; /* Make the link fill the entire cell */
-    margin: -15px -18px; /* Counteract the padding on the th */
-    padding: 15px 18px; /* Re-apply padding to the link */
+/* --- Table Header Layout & Icons --- */
+#leaderboard-table th .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
 }
 
-/* --- Sortable Table Headers --- */
+.header-content span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
 #leaderboard-table th.sortable {
     cursor: pointer;
-    position: relative;
     user-select: none; /* Prevent text selection on click */
 }
 
 #leaderboard-table th.sortable:hover {
-    background-color: #00c7a8; /* A slightly darker shade for hover */
+    background-color: #00c7a8;
 }
 
-/* Default, unsorted arrow (both up and down) */
-#leaderboard-table th.sortable::before,
-#leaderboard-table th.sortable::after {
-    content: '';
-    position: absolute;
-    right: 2px;
-    border: 5px solid transparent;
-    opacity: 0.3;
-}
-#leaderboard-table th.sortable::before {
-    top: calc(50% - 10px);
-    border-bottom-color: #1a1a1a;
-}
-#leaderboard-table th.sortable::after {
-    top: calc(50% + 2px);
-    border-top-color: #1a1a1a;
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 20px; /* Reserve space */
 }
 
-#leaderboard-table th.sortable:hover::before,
-#leaderboard-table th.sortable:hover::after {
+.sort-icon-container,
+.challenge-link-icon {
+    display: flex;
+    align-items: center;
+}
+
+.sort-icon-container svg,
+.challenge-link-icon svg {
+    width: 20px;
+    height: 20px;
+    fill: #1a1a1a; /* Black to match header text */
+    transition: opacity 0.2s ease;
+}
+
+.challenge-link-icon svg {
     opacity: 0.6;
 }
-
-#leaderboard-table th.sorted-asc::before,
-#leaderboard-table th.sorted-desc::after {
+.challenge-link-icon:hover svg {
     opacity: 1;
 }
-#leaderboard-table th.sorted-asc::after,
-#leaderboard-table th.sorted-desc::before {
-    opacity: 0.2;
+
+/* Hide sort icon container by default */
+.sort-icon-container {
+    display: none;
+}
+
+/* Show container when sorting is active on a column */
+th.sorted-asc .sort-icon-container,
+th.sorted-desc .sort-icon-container {
+    display: flex;
 }
 
 
