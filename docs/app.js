@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const remainingHeaders = `
             <th>Total Score</th>
             <th>Games Played</th>
-            <th title="average_score * log(games_played + 1)">Weighted Score</th>
+            <th title="normalized_average_per_round * log(games_played + 1)">Weighted Score</th>
             <th>Wins</th>
             <th>Perfect Rounds</th>
         `;

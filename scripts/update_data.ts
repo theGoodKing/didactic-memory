@@ -50,6 +50,7 @@ async function updateLeaderboard() {
     playerName: string;
     totalScore: number;
     gamesPlayed: number;
+    totalRoundsPlayed: number;
     challengesWon: number;
     perfectRounds: number;
     challengeScores: { [challengeId: string]: number };
@@ -99,9 +100,10 @@ async function updateLeaderboard() {
         const score = parseInt(player.totalScore.amount, 10);
         const playerName = player.nick;
         const playerId = player.id;
+        const numRounds = player.guesses.length;
 
-        if (isNaN(score)) {
-          console.warn(`Could not parse score for player: ${playerName}. Skipping.`);
+        if (isNaN(score) || numRounds === 0) {
+          console.warn(`Could not parse score or found 0 rounds for player: ${playerName}. Skipping.`);
           continue;
         }
 
@@ -109,6 +111,7 @@ async function updateLeaderboard() {
           playerName: playerName,
           totalScore: 0,
           gamesPlayed: 0,
+          totalRoundsPlayed: 0,
           challengesWon: 0,
           perfectRounds: 0,
           challengeScores: {},
@@ -116,6 +119,7 @@ async function updateLeaderboard() {
 
         existingPlayer.totalScore += score;
         existingPlayer.gamesPlayed += 1;
+        existingPlayer.totalRoundsPlayed += numRounds;
         existingPlayer.challengeScores[challengeId] = score;
 
         if (playerId === winnerId) {
@@ -138,14 +142,14 @@ async function updateLeaderboard() {
   // 3. Process and rank players, sorting by a weighted score
   const rankedPlayers = Array.from(aggregatedScores.values())
     .map(p => {
-      const averageScore = p.gamesPlayed > 0 ? p.totalScore / p.gamesPlayed : 0;
+      // Calculate a normalized average score per round
+      const averageScorePerRound = p.totalRoundsPlayed > 0 ? p.totalScore / p.totalRoundsPlayed : 0;
       
-      // Weighted score rewards playing more games, with diminishing returns via Math.log().
-      const weightedScore = averageScore * Math.log(p.gamesPlayed + 1);
+      // Weighted score uses the normalized score and rewards playing more games.
+      const weightedScore = averageScorePerRound * Math.log(p.gamesPlayed + 1);
 
       return {
         ...p,
-        // averageScore is no longer in the output object
         weightedScore, // Keep it unrounded for sorting
       };
     })
