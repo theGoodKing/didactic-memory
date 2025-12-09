@@ -147,6 +147,23 @@
       "rank": 7
     },
     {
+      "playerName": "Jack Bradshaw",
+      "totalScore": 117157,
+      "gamesPlayed": 6,
+      "challengesWon": 0,
+      "perfectRounds": 4,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 15353,
+        "3i1on2KFtSvnQMMl": 19745,
+        "iulxNVNhCz4iRote": 23733,
+        "RtYhwKFR2ErNGFY1": 15949,
+        "663ooruVueCTsTyn": 19770,
+        "OSJgyOUNN2RYySKg": 22607
+      },
+      "averageScore": 19526,
+      "rank": 8
+    },
+    {
       "playerName": "Jodie Laurenson",
       "totalScore": 115013,
       "gamesPlayed": 6,
@@ -161,7 +178,7 @@
         "tKXoHKIpSf0681BK": 14485
       },
       "averageScore": 19169,
-      "rank": 8
+      "rank": 9
     },
     {
       "playerName": "Joe",
@@ -174,22 +191,6 @@
         "663ooruVueCTsTyn": 20346
       },
       "averageScore": 19123,
-      "rank": 9
-    },
-    {
-      "playerName": "Jack Bradshaw",
-      "totalScore": 94550,
-      "gamesPlayed": 5,
-      "challengesWon": 0,
-      "perfectRounds": 3,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 15353,
-        "3i1on2KFtSvnQMMl": 19745,
-        "iulxNVNhCz4iRote": 23733,
-        "RtYhwKFR2ErNGFY1": 15949,
-        "663ooruVueCTsTyn": 19770
-      },
-      "averageScore": 18910,
       "rank": 10
     },
     {
