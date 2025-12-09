@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const remainingHeaders = `
             <th>Total Score</th>
             <th>Games Played</th>
-            <th>Average Score</th>
+            <th title="average_score * log(games_played + 1)">Weighted Score</th>
             <th>Wins</th>
             <th>Perfect Rounds</th>
         `;
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
             rowHtml += `
                 <td>${player.totalScore.toLocaleString()}</td>
                 <td>${player.gamesPlayed}</td>
-                <td>${player.averageScore.toLocaleString()}</td>
+                <td>${player.weightedScore.toLocaleString()}</td>
                 <td>${player.challengesWon}</td>
                 <td>${player.perfectRounds}</td>
             `;

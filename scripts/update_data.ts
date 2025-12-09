@@ -16,7 +16,7 @@ interface LeaderboardPlayer {
   playerName: string;
   totalScore: number;
   gamesPlayed: number;
-  averageScore: number;
+  weightedScore: number;
   challengesWon: number;
   perfectRounds: number;
   challengeScores: { [challengeId: string]: number };
@@ -135,18 +135,27 @@ async function updateLeaderboard() {
     }
   }
 
-  // 3. Process and rank players, sorting by average score
-  const rankedPlayers: Omit<LeaderboardPlayer, 'rank'>[] = Array.from(aggregatedScores.values())
-    .map(p => ({
-      ...p,
-      averageScore: p.gamesPlayed > 0 ? Math.round(p.totalScore / p.gamesPlayed) : 0,
-    }))
-    .sort((a, b) => b.averageScore - a.averageScore);
+  // 3. Process and rank players, sorting by a weighted score
+  const rankedPlayers = Array.from(aggregatedScores.values())
+    .map(p => {
+      const averageScore = p.gamesPlayed > 0 ? p.totalScore / p.gamesPlayed : 0;
+      
+      // Weighted score rewards playing more games, with diminishing returns via Math.log().
+      const weightedScore = averageScore * Math.log(p.gamesPlayed + 1);
+
+      return {
+        ...p,
+        // averageScore is no longer in the output object
+        weightedScore, // Keep it unrounded for sorting
+      };
+    })
+    .sort((a, b) => b.weightedScore - a.weightedScore);
   
   // 4. Assign ranks
   const finalLeaderboard: LeaderboardPlayer[] = rankedPlayers.map((p, index) => ({
     ...p,
     rank: index + 1,
+    weightedScore: Math.round(p.weightedScore), // round for display
   }));
 
   // 5. Create final output object
