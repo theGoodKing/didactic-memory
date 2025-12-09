@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let leaderboardData = null;
     let challengeDetails = [];
+    let currentSort = {
+        column: 'weightedScore',
+        direction: 'desc'
+    };
 
     detailsToggle.addEventListener("change", () => {
         if (detailsToggle.checked) {
@@ -39,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
             challengeDetails = data.challengeDetails || [];
             
             renderTableHeaders();
-            renderTableBody();
+            sortAndRender(); // Initial sort and render
 
         } catch (err) {
             console.error("Error loading the leaderboard:", err);
@@ -49,18 +53,67 @@ document.addEventListener("DOMContentLoaded", () => {
             loadingIndicator.style.display = "none";
         }
     }
+
+    function sortAndRender() {
+        leaderboardData.sort((a, b) => {
+            const key = currentSort.column;
+            let valA = a[key];
+            let valB = b[key];
+
+            if (typeof valA === 'string') {
+                valA = valA.toLowerCase();
+                valB = valB.toLowerCase();
+            }
+
+            if (valA < valB) {
+                return currentSort.direction === 'asc' ? -1 : 1;
+            }
+            if (valA > valB) {
+                return currentSort.direction === 'asc' ? 1 : -1;
+            }
+            return 0;
+        });
+
+        // Re-assign ranks after sorting
+        leaderboardData.forEach((player, index) => {
+            player.rank = index + 1;
+        });
+
+        renderTableBody();
+        updateHeaderClasses();
+    }
     
     function renderTableHeaders() {
         tableHead.innerHTML = ""; // Clear existing headers
         const headerRow = document.createElement("tr");
 
-        // Standard headers
-        headerRow.innerHTML = `
-            <th>Rank</th>
-            <th>Player</th>
-        `;
+        const createHeader = (text, sortKey, isSortable = false, title = '') => {
+            const th = document.createElement("th");
+            th.textContent = text;
+            if (title) {
+                th.title = title;
+            }
+            if (isSortable) {
+                th.classList.add('sortable');
+                th.dataset.sortKey = sortKey;
+                th.addEventListener('click', () => {
+                    if (currentSort.column === sortKey) {
+                        currentSort.direction = currentSort.direction === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        currentSort.column = sortKey;
+                        currentSort.direction = 'desc'; // Default to descending for new column
+                    }
+                    sortAndRender();
+                });
+            }
+            return th;
+        };
+        
+        // --- Create and append headers ---
+        headerRow.appendChild(createHeader('Rank', 'rank')); // Not sortable by rank
+        headerRow.appendChild(createHeader('Player', 'playerName')); // Not sortable per user request
 
-        // Dynamic Challenge headers
+        // Dynamic Challenge headers (Links, not sortable)
         challengeDetails.forEach(challenge => {
             const th = document.createElement("th");
             th.classList.add("challenge-col");
@@ -68,23 +121,30 @@ document.addEventListener("DOMContentLoaded", () => {
             const link = document.createElement("a");
             link.href = `https://www.geoguessr.com/challenge/${challenge.id}`;
             link.textContent = challenge.name;
-            link.target = "_blank"; // Open in new tab
+            link.target = "_blank";
             link.rel = "noopener noreferrer";
             
             th.appendChild(link);
             headerRow.appendChild(th);
         });
+        
+        // Remaining headers (some sortable)
+        headerRow.appendChild(createHeader('Total Score', 'totalScore', true));
+        headerRow.appendChild(createHeader('Games Played', 'gamesPlayed', true));
+        headerRow.appendChild(createHeader('Weighted Score', 'weightedScore', true, 'normalized_average_per_round * log(games_played + 1)'));
+        headerRow.appendChild(createHeader('Wins', 'challengesWon', true));
+        headerRow.appendChild(createHeader('Perfect Rounds', 'perfectRounds', true));
 
-        // Remaining standard headers
-        const remainingHeaders = `
-            <th>Total Score</th>
-            <th>Games Played</th>
-            <th title="normalized_average_per_round * log(games_played + 1)">Weighted Score</th>
-            <th>Wins</th>
-            <th>Perfect Rounds</th>
-        `;
-        headerRow.innerHTML += remainingHeaders;
         tableHead.appendChild(headerRow);
+    }
+    
+    function updateHeaderClasses() {
+        tableHead.querySelectorAll('th.sortable').forEach(th => {
+            th.classList.remove('sorted-asc', 'sorted-desc');
+            if (th.dataset.sortKey === currentSort.column) {
+                th.classList.add(currentSort.direction === 'asc' ? 'sorted-asc' : 'sorted-desc');
+            }
+        });
     }
 
     function renderTableBody() {
@@ -93,19 +153,16 @@ document.addEventListener("DOMContentLoaded", () => {
         leaderboardData.forEach(player => {
             const row = document.createElement("tr");
 
-            // Standard cells
             let rowHtml = `
                 <td>${player.rank}</td>
                 <td>${escapeHtml(player.playerName)}</td>
             `;
 
-            // Dynamic score cells
             challengeDetails.forEach(challenge => {
                 const score = player.challengeScores[challenge.id] || 0;
                 rowHtml += `<td class="challenge-col">${score.toLocaleString()}</td>`;
             });
             
-            // Remaining standard cells
             rowHtml += `
                 <td>${player.totalScore.toLocaleString()}</td>
                 <td>${player.gamesPlayed}</td>
