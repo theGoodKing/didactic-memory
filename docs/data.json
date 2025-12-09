@@ -52,9 +52,9 @@
     },
     {
       "playerName": "Richard",
-      "totalScore": 159725,
-      "gamesPlayed": 7,
-      "challengesWon": 3,
+      "totalScore": 184112,
+      "gamesPlayed": 8,
+      "challengesWon": 4,
       "perfectRounds": 15,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
@@ -63,9 +63,10 @@
         "RtYhwKFR2ErNGFY1": 25000,
         "663ooruVueCTsTyn": 23059,
         "OSJgyOUNN2RYySKg": 19753,
-        "jdRWWrgYJHlRSUuV": 23381
+        "jdRWWrgYJHlRSUuV": 23381,
+        "tKXoHKIpSf0681BK": 24387
       },
-      "averageScore": 22818,
+      "averageScore": 23014,
       "rank": 2
     },
     {
@@ -116,24 +117,6 @@
       "rank": 5
     },
     {
-      "playerName": "Jack Bradshaw",
-      "totalScore": 138807,
-      "gamesPlayed": 7,
-      "challengesWon": 0,
-      "perfectRounds": 4,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 15353,
-        "3i1on2KFtSvnQMMl": 19745,
-        "iulxNVNhCz4iRote": 23733,
-        "RtYhwKFR2ErNGFY1": 15949,
-        "663ooruVueCTsTyn": 19770,
-        "OSJgyOUNN2RYySKg": 22607,
-        "jdRWWrgYJHlRSUuV": 21650
-      },
-      "averageScore": 19830,
-      "rank": 6
-    },
-    {
       "playerName": "Joel",
       "totalScore": 158419,
       "gamesPlayed": 8,
@@ -150,7 +133,7 @@
         "tKXoHKIpSf0681BK": 12255
       },
       "averageScore": 19802,
-      "rank": 7
+      "rank": 6
     },
     {
       "playerName": "Ibyahmed74",
@@ -166,7 +149,7 @@
         "663ooruVueCTsTyn": 22817
       },
       "averageScore": 19638,
-      "rank": 8
+      "rank": 7
     },
     {
       "playerName": "Joe",
@@ -180,7 +163,7 @@
         "18dNMkKbza2oOKAV": 20654
       },
       "averageScore": 19633,
-      "rank": 9
+      "rank": 8
     },
     {
       "playerName": "Jodie Laurenson",
@@ -198,7 +181,7 @@
         "18dNMkKbza2oOKAV": 19817
       },
       "averageScore": 19261,
-      "rank": 10
+      "rank": 9
     },
     {
       "playerName": "callum leung",
@@ -216,6 +199,25 @@
         "jdRWWrgYJHlRSUuV": 21869
       },
       "averageScore": 19167,
+      "rank": 10
+    },
+    {
+      "playerName": "Jack Bradshaw",
+      "totalScore": 148691,
+      "gamesPlayed": 8,
+      "challengesWon": 0,
+      "perfectRounds": 4,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 15353,
+        "3i1on2KFtSvnQMMl": 19745,
+        "iulxNVNhCz4iRote": 23733,
+        "RtYhwKFR2ErNGFY1": 15949,
+        "663ooruVueCTsTyn": 19770,
+        "OSJgyOUNN2RYySKg": 22607,
+        "jdRWWrgYJHlRSUuV": 21650,
+        "tKXoHKIpSf0681BK": 9884
+      },
+      "averageScore": 18586,
       "rank": 11
     },
     {
@@ -242,7 +244,7 @@
       "playerName": "Sophia",
       "totalScore": 126502,
       "gamesPlayed": 8,
-      "challengesWon": 1,
+      "challengesWon": 0,
       "perfectRounds": 2,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 2257,
