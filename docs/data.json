@@ -101,6 +101,27 @@
       "rank": 3
     },
     {
+      "playerName": "Jack Bradshaw",
+      "totalScore": 169397,
+      "gamesPlayed": 9,
+      "totalRoundsPlayed": 45,
+      "challengesWon": 0,
+      "perfectRounds": 6,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 15353,
+        "3i1on2KFtSvnQMMl": 19745,
+        "iulxNVNhCz4iRote": 23733,
+        "RtYhwKFR2ErNGFY1": 15949,
+        "663ooruVueCTsTyn": 19770,
+        "OSJgyOUNN2RYySKg": 22607,
+        "jdRWWrgYJHlRSUuV": 21650,
+        "tKXoHKIpSf0681BK": 9884,
+        "18dNMkKbza2oOKAV": 20706
+      },
+      "weightedScore": 8668,
+      "rank": 4
+    },
+    {
       "playerName": "Matthew G",
       "totalScore": 131234,
       "gamesPlayed": 6,
@@ -116,26 +137,6 @@
         "jdRWWrgYJHlRSUuV": 22775
       },
       "weightedScore": 8512,
-      "rank": 4
-    },
-    {
-      "playerName": "Jack Bradshaw",
-      "totalScore": 148691,
-      "gamesPlayed": 8,
-      "totalRoundsPlayed": 40,
-      "challengesWon": 0,
-      "perfectRounds": 4,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 15353,
-        "3i1on2KFtSvnQMMl": 19745,
-        "iulxNVNhCz4iRote": 23733,
-        "RtYhwKFR2ErNGFY1": 15949,
-        "663ooruVueCTsTyn": 19770,
-        "OSJgyOUNN2RYySKg": 22607,
-        "jdRWWrgYJHlRSUuV": 21650,
-        "tKXoHKIpSf0681BK": 9884
-      },
-      "weightedScore": 8168,
       "rank": 5
     },
     {
@@ -256,20 +257,21 @@
     },
     {
       "playerName": "hayden",
-      "totalScore": 94345,
-      "gamesPlayed": 6,
-      "totalRoundsPlayed": 30,
+      "totalScore": 114505,
+      "gamesPlayed": 7,
+      "totalRoundsPlayed": 35,
       "challengesWon": 0,
-      "perfectRounds": 2,
+      "perfectRounds": 4,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 13707,
         "3i1on2KFtSvnQMMl": 19334,
         "iulxNVNhCz4iRote": 19713,
         "RtYhwKFR2ErNGFY1": 11699,
         "663ooruVueCTsTyn": 14808,
-        "OSJgyOUNN2RYySKg": 15084
+        "OSJgyOUNN2RYySKg": 15084,
+        "18dNMkKbza2oOKAV": 20160
       },
-      "weightedScore": 6120,
+      "weightedScore": 6803,
       "rank": 12
     },
     {
