@@ -412,6 +412,21 @@
       "rank": 20
     },
     {
+      "playerName": "VolcanicOcean231",
+      "totalScore": 39663,
+      "gamesPlayed": 3,
+      "totalRoundsPlayed": 20,
+      "challengesWon": 0,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "RtYhwKFR2ErNGFY1": 10202,
+        "OSJgyOUNN2RYySKg": 14439,
+        "udPqLpGh0vSRS1qp": 15022
+      },
+      "weightedScore": 2749,
+      "rank": 21
+    },
+    {
       "playerName": "thom",
       "totalScore": 15473,
       "gamesPlayed": 1,
@@ -422,7 +437,7 @@
         "iulxNVNhCz4iRote": 15473
       },
       "weightedScore": 2145,
-      "rank": 21
+      "rank": 22
     },
     {
       "playerName": "rcyza",
@@ -435,7 +450,7 @@
         "OSJgyOUNN2RYySKg": 12984
       },
       "weightedScore": 1800,
-      "rank": 22
+      "rank": 23
     },
     {
       "playerName": "Chris",
@@ -448,7 +463,7 @@
         "BTv0qqcesI1eRJV5": 12642
       },
       "weightedScore": 1753,
-      "rank": 23
+      "rank": 24
     },
     {
       "playerName": "Thistle Windows Aberdeen Ltd",
@@ -461,19 +476,6 @@
         "BTv0qqcesI1eRJV5": 11417
       },
       "weightedScore": 1583,
-      "rank": 24
-    },
-    {
-      "playerName": "VolcanicOcean231",
-      "totalScore": 10202,
-      "gamesPlayed": 1,
-      "totalRoundsPlayed": 5,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "RtYhwKFR2ErNGFY1": 10202
-      },
-      "weightedScore": 1414,
       "rank": 25
     }
   ]
