@@ -397,6 +397,21 @@
       "rank": 19
     },
     {
+      "playerName": "GleefulRiver175",
+      "totalScore": 44408,
+      "gamesPlayed": 3,
+      "totalRoundsPlayed": 20,
+      "challengesWon": 0,
+      "perfectRounds": 1,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 8767,
+        "tKXoHKIpSf0681BK": 7231,
+        "udPqLpGh0vSRS1qp": 28410
+      },
+      "weightedScore": 3078,
+      "rank": 20
+    },
+    {
       "playerName": "thom",
       "totalScore": 15473,
       "gamesPlayed": 1,
@@ -407,19 +422,6 @@
         "iulxNVNhCz4iRote": 15473
       },
       "weightedScore": 2145,
-      "rank": 20
-    },
-    {
-      "playerName": "GleefulRiver175",
-      "totalScore": 28410,
-      "gamesPlayed": 1,
-      "totalRoundsPlayed": 10,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "udPqLpGh0vSRS1qp": 28410
-      },
-      "weightedScore": 1969,
       "rank": 21
     },
     {
