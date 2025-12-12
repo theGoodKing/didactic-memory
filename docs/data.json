@@ -39,6 +39,14 @@
     {
       "id": "udPqLpGh0vSRS1qp",
       "name": "Wetherspoons (updated)"
+    },
+    {
+      "id": "TBdMvtG1kfCIHX6B",
+      "name": "A Graffiti World"
+    },
+    {
+      "id": "OZDEIyiEMivUPZJP",
+      "name": "Cities in Bold"
     }
   ],
   "leaderboard": [
@@ -128,6 +136,30 @@
       "rank": 4
     },
     {
+      "playerName": "Camille",
+      "totalScore": 230443,
+      "gamesPlayed": 12,
+      "totalRoundsPlayed": 65,
+      "challengesWon": 2,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 9245,
+        "3i1on2KFtSvnQMMl": 17589,
+        "iulxNVNhCz4iRote": 17056,
+        "RtYhwKFR2ErNGFY1": 12636,
+        "663ooruVueCTsTyn": 19313,
+        "OSJgyOUNN2RYySKg": 22059,
+        "jdRWWrgYJHlRSUuV": 22661,
+        "tKXoHKIpSf0681BK": 17239,
+        "18dNMkKbza2oOKAV": 19823,
+        "udPqLpGh0vSRS1qp": 32484,
+        "TBdMvtG1kfCIHX6B": 23650,
+        "OZDEIyiEMivUPZJP": 16688
+      },
+      "weightedScore": 9093,
+      "rank": 5
+    },
+    {
       "playerName": "Jack Bradshaw",
       "totalScore": 205708,
       "gamesPlayed": 10,
@@ -147,7 +179,7 @@
         "udPqLpGh0vSRS1qp": 36311
       },
       "weightedScore": 8968,
-      "rank": 5
+      "rank": 6
     },
     {
       "playerName": "Jodie Laurenson",
@@ -167,28 +199,6 @@
         "udPqLpGh0vSRS1qp": 44676
       },
       "weightedScore": 8765,
-      "rank": 6
-    },
-    {
-      "playerName": "Camille",
-      "totalScore": 190105,
-      "gamesPlayed": 10,
-      "totalRoundsPlayed": 55,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 9245,
-        "3i1on2KFtSvnQMMl": 17589,
-        "iulxNVNhCz4iRote": 17056,
-        "RtYhwKFR2ErNGFY1": 12636,
-        "663ooruVueCTsTyn": 19313,
-        "OSJgyOUNN2RYySKg": 22059,
-        "jdRWWrgYJHlRSUuV": 22661,
-        "tKXoHKIpSf0681BK": 17239,
-        "18dNMkKbza2oOKAV": 19823,
-        "udPqLpGh0vSRS1qp": 32484
-      },
-      "weightedScore": 8288,
       "rank": 7
     },
     {
@@ -271,9 +281,9 @@
     },
     {
       "playerName": "hayden",
-      "totalScore": 138532,
-      "gamesPlayed": 9,
-      "totalRoundsPlayed": 50,
+      "totalScore": 154603,
+      "gamesPlayed": 10,
+      "totalRoundsPlayed": 55,
       "challengesWon": 0,
       "perfectRounds": 4,
       "challengeScores": {
@@ -285,9 +295,10 @@
         "OSJgyOUNN2RYySKg": 15084,
         "tKXoHKIpSf0681BK": 3401,
         "18dNMkKbza2oOKAV": 20160,
-        "udPqLpGh0vSRS1qp": 20626
+        "udPqLpGh0vSRS1qp": 20626,
+        "OZDEIyiEMivUPZJP": 16071
       },
-      "weightedScore": 6380,
+      "weightedScore": 6740,
       "rank": 12
     },
     {
