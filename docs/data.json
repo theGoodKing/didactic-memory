@@ -52,11 +52,11 @@
   "leaderboard": [
     {
       "playerName": "Richard",
-      "totalScore": 184112,
-      "gamesPlayed": 8,
-      "totalRoundsPlayed": 40,
-      "challengesWon": 4,
-      "perfectRounds": 15,
+      "totalScore": 231995,
+      "gamesPlayed": 10,
+      "totalRoundsPlayed": 50,
+      "challengesWon": 6,
+      "perfectRounds": 20,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
         "3i1on2KFtSvnQMMl": 23318,
@@ -65,18 +65,20 @@
         "663ooruVueCTsTyn": 23059,
         "OSJgyOUNN2RYySKg": 19753,
         "jdRWWrgYJHlRSUuV": 23381,
-        "tKXoHKIpSf0681BK": 24387
+        "tKXoHKIpSf0681BK": 24387,
+        "18dNMkKbza2oOKAV": 22985,
+        "TBdMvtG1kfCIHX6B": 24898
       },
-      "weightedScore": 10113,
+      "weightedScore": 11126,
       "rank": 1
     },
     {
       "playerName": "Joel",
-      "totalScore": 224575,
-      "gamesPlayed": 10,
-      "totalRoundsPlayed": 55,
+      "totalScore": 248212,
+      "gamesPlayed": 11,
+      "totalRoundsPlayed": 60,
       "challengesWon": 1,
-      "perfectRounds": 15,
+      "perfectRounds": 16,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17381,
         "3i1on2KFtSvnQMMl": 19394,
@@ -87,9 +89,10 @@
         "jdRWWrgYJHlRSUuV": 21883,
         "tKXoHKIpSf0681BK": 12255,
         "18dNMkKbza2oOKAV": 19442,
-        "udPqLpGh0vSRS1qp": 46714
+        "udPqLpGh0vSRS1qp": 46714,
+        "TBdMvtG1kfCIHX6B": 23637
       },
-      "weightedScore": 9791,
+      "weightedScore": 10280,
       "rank": 2
     },
     {
@@ -97,7 +100,7 @@
       "totalScore": 210286,
       "gamesPlayed": 9,
       "totalRoundsPlayed": 50,
-      "challengesWon": 3,
+      "challengesWon": 2,
       "perfectRounds": 13,
       "challengeScores": {
         "3i1on2KFtSvnQMMl": 16698,
@@ -140,7 +143,7 @@
       "totalScore": 230443,
       "gamesPlayed": 12,
       "totalRoundsPlayed": 65,
-      "challengesWon": 2,
+      "challengesWon": 1,
       "perfectRounds": 0,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 9245,
@@ -158,6 +161,27 @@
       },
       "weightedScore": 9093,
       "rank": 5
+    },
+    {
+      "playerName": "Jodie Laurenson",
+      "totalScore": 195801,
+      "gamesPlayed": 9,
+      "totalRoundsPlayed": 50,
+      "challengesWon": 1,
+      "perfectRounds": 15,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18487,
+        "3i1on2KFtSvnQMMl": 14794,
+        "iulxNVNhCz4iRote": 18262,
+        "RtYhwKFR2ErNGFY1": 24008,
+        "663ooruVueCTsTyn": 24977,
+        "tKXoHKIpSf0681BK": 14485,
+        "18dNMkKbza2oOKAV": 19817,
+        "udPqLpGh0vSRS1qp": 44676,
+        "OZDEIyiEMivUPZJP": 16295
+      },
+      "weightedScore": 9017,
+      "rank": 6
     },
     {
       "playerName": "Jack Bradshaw",
@@ -179,26 +203,6 @@
         "udPqLpGh0vSRS1qp": 36311
       },
       "weightedScore": 8968,
-      "rank": 6
-    },
-    {
-      "playerName": "Jodie Laurenson",
-      "totalScore": 179506,
-      "gamesPlayed": 8,
-      "totalRoundsPlayed": 45,
-      "challengesWon": 1,
-      "perfectRounds": 14,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18487,
-        "3i1on2KFtSvnQMMl": 14794,
-        "iulxNVNhCz4iRote": 18262,
-        "RtYhwKFR2ErNGFY1": 24008,
-        "663ooruVueCTsTyn": 24977,
-        "tKXoHKIpSf0681BK": 14485,
-        "18dNMkKbza2oOKAV": 19817,
-        "udPqLpGh0vSRS1qp": 44676
-      },
-      "weightedScore": 8765,
       "rank": 7
     },
     {
@@ -334,11 +338,11 @@
     },
     {
       "playerName": "Philbo",
-      "totalScore": 82220,
-      "gamesPlayed": 7,
-      "totalRoundsPlayed": 35,
+      "totalScore": 101380,
+      "gamesPlayed": 8,
+      "totalRoundsPlayed": 40,
       "challengesWon": 0,
-      "perfectRounds": 1,
+      "perfectRounds": 3,
       "challengeScores": {
         "3i1on2KFtSvnQMMl": 8568,
         "iulxNVNhCz4iRote": 10872,
@@ -346,9 +350,10 @@
         "663ooruVueCTsTyn": 19624,
         "OSJgyOUNN2RYySKg": 20120,
         "jdRWWrgYJHlRSUuV": 10776,
-        "tKXoHKIpSf0681BK": 9977
+        "tKXoHKIpSf0681BK": 9977,
+        "18dNMkKbza2oOKAV": 19160
       },
-      "weightedScore": 4885,
+      "weightedScore": 5569,
       "rank": 15
     },
     {
