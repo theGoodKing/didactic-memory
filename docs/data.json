@@ -150,6 +150,26 @@
       "rank": 5
     },
     {
+      "playerName": "Jodie Laurenson",
+      "totalScore": 179506,
+      "gamesPlayed": 8,
+      "totalRoundsPlayed": 45,
+      "challengesWon": 1,
+      "perfectRounds": 14,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18487,
+        "3i1on2KFtSvnQMMl": 14794,
+        "iulxNVNhCz4iRote": 18262,
+        "RtYhwKFR2ErNGFY1": 24008,
+        "663ooruVueCTsTyn": 24977,
+        "tKXoHKIpSf0681BK": 14485,
+        "18dNMkKbza2oOKAV": 19817,
+        "udPqLpGh0vSRS1qp": 44676
+      },
+      "weightedScore": 8765,
+      "rank": 6
+    },
+    {
       "playerName": "Camille",
       "totalScore": 190105,
       "gamesPlayed": 10,
@@ -169,7 +189,7 @@
         "udPqLpGh0vSRS1qp": 32484
       },
       "weightedScore": 8288,
-      "rank": 6
+      "rank": 7
     },
     {
       "playerName": "Sophia",
@@ -191,25 +211,6 @@
         "udPqLpGh0vSRS1qp": 37967
       },
       "weightedScore": 8097,
-      "rank": 7
-    },
-    {
-      "playerName": "Jodie Laurenson",
-      "totalScore": 134830,
-      "gamesPlayed": 7,
-      "totalRoundsPlayed": 35,
-      "challengesWon": 1,
-      "perfectRounds": 10,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18487,
-        "3i1on2KFtSvnQMMl": 14794,
-        "iulxNVNhCz4iRote": 18262,
-        "RtYhwKFR2ErNGFY1": 24008,
-        "663ooruVueCTsTyn": 24977,
-        "tKXoHKIpSf0681BK": 14485,
-        "18dNMkKbza2oOKAV": 19817
-      },
-      "weightedScore": 8011,
       "rank": 8
     },
     {
