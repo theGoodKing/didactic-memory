@@ -47,6 +47,18 @@
     {
       "id": "OZDEIyiEMivUPZJP",
       "name": "Cities in Bold"
+    },
+    {
+      "id": "IEz8t25S0IR5A0v7",
+      "name": "small islands"
+    },
+    {
+      "id": "YSGMwZENKSDocgKO",
+      "name": "A Mountainous World"
+    },
+    {
+      "id": "iDAkQYhvG9P55ZlS",
+      "name": "Unknown Map"
     }
   ],
   "leaderboard": [
@@ -74,11 +86,11 @@
     },
     {
       "playerName": "Joel",
-      "totalScore": 264717,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 65,
-      "challengesWon": 1,
-      "perfectRounds": 16,
+      "totalScore": 282620,
+      "gamesPlayed": 13,
+      "totalRoundsPlayed": 70,
+      "challengesWon": 2,
+      "perfectRounds": 17,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17381,
         "3i1on2KFtSvnQMMl": 19394,
@@ -91,17 +103,18 @@
         "18dNMkKbza2oOKAV": 19442,
         "udPqLpGh0vSRS1qp": 46714,
         "TBdMvtG1kfCIHX6B": 23637,
-        "OZDEIyiEMivUPZJP": 16505
+        "OZDEIyiEMivUPZJP": 16505,
+        "IEz8t25S0IR5A0v7": 17903
       },
-      "weightedScore": 10446,
+      "weightedScore": 10655,
       "rank": 2
     },
     {
       "playerName": "Jack Bradshaw",
-      "totalScore": 246376,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 65,
-      "challengesWon": 1,
+      "totalScore": 279788,
+      "gamesPlayed": 14,
+      "totalRoundsPlayed": 75,
+      "challengesWon": 2,
       "perfectRounds": 8,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 15353,
@@ -115,9 +128,11 @@
         "18dNMkKbza2oOKAV": 20706,
         "udPqLpGh0vSRS1qp": 36311,
         "TBdMvtG1kfCIHX6B": 23388,
-        "OZDEIyiEMivUPZJP": 17280
+        "OZDEIyiEMivUPZJP": 17280,
+        "IEz8t25S0IR5A0v7": 14421,
+        "YSGMwZENKSDocgKO": 18991
       },
-      "weightedScore": 9722,
+      "weightedScore": 10102,
       "rank": 3
     },
     {
@@ -142,6 +157,32 @@
       "rank": 4
     },
     {
+      "playerName": "Camille",
+      "totalScore": 264505,
+      "gamesPlayed": 14,
+      "totalRoundsPlayed": 75,
+      "challengesWon": 0,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 9245,
+        "3i1on2KFtSvnQMMl": 17589,
+        "iulxNVNhCz4iRote": 17056,
+        "RtYhwKFR2ErNGFY1": 12636,
+        "663ooruVueCTsTyn": 19313,
+        "OSJgyOUNN2RYySKg": 22059,
+        "jdRWWrgYJHlRSUuV": 22661,
+        "tKXoHKIpSf0681BK": 17239,
+        "18dNMkKbza2oOKAV": 19823,
+        "udPqLpGh0vSRS1qp": 32484,
+        "TBdMvtG1kfCIHX6B": 23650,
+        "OZDEIyiEMivUPZJP": 16688,
+        "IEz8t25S0IR5A0v7": 16277,
+        "YSGMwZENKSDocgKO": 17785
+      },
+      "weightedScore": 9551,
+      "rank": 5
+    },
+    {
       "playerName": "callum leung",
       "totalScore": 212592,
       "gamesPlayed": 10,
@@ -161,30 +202,6 @@
         "udPqLpGh0vSRS1qp": 37621
       },
       "weightedScore": 9269,
-      "rank": 5
-    },
-    {
-      "playerName": "Camille",
-      "totalScore": 230443,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 65,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 9245,
-        "3i1on2KFtSvnQMMl": 17589,
-        "iulxNVNhCz4iRote": 17056,
-        "RtYhwKFR2ErNGFY1": 12636,
-        "663ooruVueCTsTyn": 19313,
-        "OSJgyOUNN2RYySKg": 22059,
-        "jdRWWrgYJHlRSUuV": 22661,
-        "tKXoHKIpSf0681BK": 17239,
-        "18dNMkKbza2oOKAV": 19823,
-        "udPqLpGh0vSRS1qp": 32484,
-        "TBdMvtG1kfCIHX6B": 23650,
-        "OZDEIyiEMivUPZJP": 16688
-      },
-      "weightedScore": 9093,
       "rank": 6
     },
     {
@@ -210,9 +227,9 @@
     },
     {
       "playerName": "Sophia",
-      "totalScore": 220168,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 65,
+      "totalScore": 248054,
+      "gamesPlayed": 14,
+      "totalRoundsPlayed": 75,
       "challengesWon": 0,
       "perfectRounds": 6,
       "challengeScores": {
@@ -227,9 +244,11 @@
         "18dNMkKbza2oOKAV": 21249,
         "udPqLpGh0vSRS1qp": 37967,
         "TBdMvtG1kfCIHX6B": 22010,
-        "OZDEIyiEMivUPZJP": 12440
+        "OZDEIyiEMivUPZJP": 12440,
+        "IEz8t25S0IR5A0v7": 15347,
+        "YSGMwZENKSDocgKO": 12539
       },
-      "weightedScore": 8688,
+      "weightedScore": 8957,
       "rank": 8
     },
     {
