@@ -191,6 +191,30 @@
       "rank": 5
     },
     {
+      "playerName": "callum leung",
+      "totalScore": 255059,
+      "gamesPlayed": 12,
+      "totalRoundsPlayed": 65,
+      "challengesWon": 0,
+      "perfectRounds": 14,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18353,
+        "3i1on2KFtSvnQMMl": 13456,
+        "iulxNVNhCz4iRote": 22744,
+        "RtYhwKFR2ErNGFY1": 15130,
+        "663ooruVueCTsTyn": 22473,
+        "OSJgyOUNN2RYySKg": 20141,
+        "jdRWWrgYJHlRSUuV": 21869,
+        "tKXoHKIpSf0681BK": 20106,
+        "18dNMkKbza2oOKAV": 20699,
+        "udPqLpGh0vSRS1qp": 37621,
+        "TBdMvtG1kfCIHX6B": 24320,
+        "OZDEIyiEMivUPZJP": 18147
+      },
+      "weightedScore": 10065,
+      "rank": 6
+    },
+    {
       "playerName": "Jodie Laurenson",
       "totalScore": 240527,
       "gamesPlayed": 11,
@@ -211,7 +235,7 @@
         "iDAkQYhvG9P55ZlS": 22082
       },
       "weightedScore": 9961,
-      "rank": 6
+      "rank": 7
     },
     {
       "playerName": "Camille",
@@ -237,35 +261,13 @@
         "YSGMwZENKSDocgKO": 17785
       },
       "weightedScore": 9551,
-      "rank": 7
-    },
-    {
-      "playerName": "callum leung",
-      "totalScore": 212592,
-      "gamesPlayed": 10,
-      "totalRoundsPlayed": 55,
-      "challengesWon": 0,
-      "perfectRounds": 11,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18353,
-        "3i1on2KFtSvnQMMl": 13456,
-        "iulxNVNhCz4iRote": 22744,
-        "RtYhwKFR2ErNGFY1": 15130,
-        "663ooruVueCTsTyn": 22473,
-        "OSJgyOUNN2RYySKg": 20141,
-        "jdRWWrgYJHlRSUuV": 21869,
-        "tKXoHKIpSf0681BK": 20106,
-        "18dNMkKbza2oOKAV": 20699,
-        "udPqLpGh0vSRS1qp": 37621
-      },
-      "weightedScore": 9269,
       "rank": 8
     },
     {
       "playerName": "Sophia",
-      "totalScore": 248054,
-      "gamesPlayed": 14,
-      "totalRoundsPlayed": 75,
+      "totalScore": 263544,
+      "gamesPlayed": 15,
+      "totalRoundsPlayed": 80,
       "challengesWon": 0,
       "perfectRounds": 6,
       "challengeScores": {
@@ -282,9 +284,10 @@
         "TBdMvtG1kfCIHX6B": 22010,
         "OZDEIyiEMivUPZJP": 12440,
         "IEz8t25S0IR5A0v7": 15347,
-        "YSGMwZENKSDocgKO": 12539
+        "YSGMwZENKSDocgKO": 12539,
+        "iDAkQYhvG9P55ZlS": 15490
       },
-      "weightedScore": 8957,
+      "weightedScore": 9134,
       "rank": 9
     },
     {
