@@ -59,9 +59,41 @@
     {
       "id": "iDAkQYhvG9P55ZlS",
       "name": "Flags of the World"
+    },
+    {
+      "id": "PVyqEhNg6gdIKv23",
+      "name": "Where's That Greggs?"
     }
   ],
   "leaderboard": [
+    {
+      "playerName": "Tomxmclaughlan",
+      "totalScore": 373855,
+      "gamesPlayed": 16,
+      "totalRoundsPlayed": 85,
+      "challengesWon": 5,
+      "perfectRounds": 29,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 17554,
+        "3i1on2KFtSvnQMMl": 19950,
+        "iulxNVNhCz4iRote": 22668,
+        "RtYhwKFR2ErNGFY1": 21961,
+        "663ooruVueCTsTyn": 24483,
+        "OSJgyOUNN2RYySKg": 23419,
+        "jdRWWrgYJHlRSUuV": 22485,
+        "tKXoHKIpSf0681BK": 24869,
+        "18dNMkKbza2oOKAV": 23037,
+        "udPqLpGh0vSRS1qp": 48989,
+        "TBdMvtG1kfCIHX6B": 24894,
+        "OZDEIyiEMivUPZJP": 16401,
+        "IEz8t25S0IR5A0v7": 15830,
+        "YSGMwZENKSDocgKO": 20058,
+        "iDAkQYhvG9P55ZlS": 22328,
+        "PVyqEhNg6gdIKv23": 24929
+      },
+      "weightedScore": 12461,
+      "rank": 1
+    },
     {
       "playerName": "Richard",
       "totalScore": 328213,
@@ -86,30 +118,6 @@
         "YSGMwZENKSDocgKO": 18272
       },
       "weightedScore": 11851,
-      "rank": 1
-    },
-    {
-      "playerName": "Tomxmclaughlan",
-      "totalScore": 290710,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 65,
-      "challengesWon": 4,
-      "perfectRounds": 23,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 17554,
-        "3i1on2KFtSvnQMMl": 19950,
-        "iulxNVNhCz4iRote": 22668,
-        "RtYhwKFR2ErNGFY1": 21961,
-        "663ooruVueCTsTyn": 24483,
-        "OSJgyOUNN2RYySKg": 23419,
-        "jdRWWrgYJHlRSUuV": 22485,
-        "tKXoHKIpSf0681BK": 24869,
-        "18dNMkKbza2oOKAV": 23037,
-        "udPqLpGh0vSRS1qp": 48989,
-        "TBdMvtG1kfCIHX6B": 24894,
-        "OZDEIyiEMivUPZJP": 16401
-      },
-      "weightedScore": 11472,
       "rank": 2
     },
     {
@@ -165,11 +173,11 @@
     },
     {
       "playerName": "Jack Bradshaw",
-      "totalScore": 295659,
-      "gamesPlayed": 15,
-      "totalRoundsPlayed": 80,
-      "challengesWon": 0,
-      "perfectRounds": 8,
+      "totalScore": 330163,
+      "gamesPlayed": 16,
+      "totalRoundsPlayed": 87,
+      "challengesWon": 1,
+      "perfectRounds": 9,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 15353,
         "3i1on2KFtSvnQMMl": 19745,
@@ -185,9 +193,10 @@
         "OZDEIyiEMivUPZJP": 17280,
         "IEz8t25S0IR5A0v7": 14421,
         "YSGMwZENKSDocgKO": 18991,
-        "iDAkQYhvG9P55ZlS": 15871
+        "iDAkQYhvG9P55ZlS": 15871,
+        "PVyqEhNg6gdIKv23": 34504
       },
-      "weightedScore": 10247,
+      "weightedScore": 10752,
       "rank": 5
     },
     {
@@ -219,7 +228,7 @@
       "totalScore": 240527,
       "gamesPlayed": 11,
       "totalRoundsPlayed": 60,
-      "challengesWon": 2,
+      "challengesWon": 1,
       "perfectRounds": 16,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 18487,
@@ -239,9 +248,9 @@
     },
     {
       "playerName": "Camille",
-      "totalScore": 264505,
-      "gamesPlayed": 14,
-      "totalRoundsPlayed": 75,
+      "totalScore": 284178,
+      "gamesPlayed": 15,
+      "totalRoundsPlayed": 83,
       "challengesWon": 0,
       "perfectRounds": 0,
       "challengeScores": {
@@ -258,9 +267,10 @@
         "TBdMvtG1kfCIHX6B": 23650,
         "OZDEIyiEMivUPZJP": 16688,
         "IEz8t25S0IR5A0v7": 16277,
-        "YSGMwZENKSDocgKO": 17785
+        "YSGMwZENKSDocgKO": 17785,
+        "PVyqEhNg6gdIKv23": 19673
       },
-      "weightedScore": 9551,
+      "weightedScore": 9493,
       "rank": 8
     },
     {
