@@ -96,11 +96,11 @@
     },
     {
       "playerName": "Richard",
-      "totalScore": 343485,
-      "gamesPlayed": 15,
-      "totalRoundsPlayed": 80,
+      "totalScore": 389306,
+      "gamesPlayed": 16,
+      "totalRoundsPlayed": 90,
       "challengesWon": 4,
-      "perfectRounds": 26,
+      "perfectRounds": 32,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
         "3i1on2KFtSvnQMMl": 23318,
@@ -116,9 +116,10 @@
         "OZDEIyiEMivUPZJP": 16285,
         "IEz8t25S0IR5A0v7": 22766,
         "YSGMwZENKSDocgKO": 18272,
-        "iDAkQYhvG9P55ZlS": 15272
+        "iDAkQYhvG9P55ZlS": 15272,
+        "PVyqEhNg6gdIKv23": 45821
       },
-      "weightedScore": 11904,
+      "weightedScore": 12255,
       "rank": 2
     },
     {
@@ -149,6 +150,34 @@
       "rank": 3
     },
     {
+      "playerName": "callum leung",
+      "totalScore": 333888,
+      "gamesPlayed": 16,
+      "totalRoundsPlayed": 86,
+      "challengesWon": 0,
+      "perfectRounds": 17,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18353,
+        "3i1on2KFtSvnQMMl": 13456,
+        "iulxNVNhCz4iRote": 22744,
+        "RtYhwKFR2ErNGFY1": 15130,
+        "663ooruVueCTsTyn": 22473,
+        "OSJgyOUNN2RYySKg": 20141,
+        "jdRWWrgYJHlRSUuV": 21869,
+        "tKXoHKIpSf0681BK": 20106,
+        "18dNMkKbza2oOKAV": 20699,
+        "udPqLpGh0vSRS1qp": 37621,
+        "TBdMvtG1kfCIHX6B": 24320,
+        "OZDEIyiEMivUPZJP": 18147,
+        "IEz8t25S0IR5A0v7": 18385,
+        "YSGMwZENKSDocgKO": 19073,
+        "iDAkQYhvG9P55ZlS": 14035,
+        "PVyqEhNg6gdIKv23": 27336
+      },
+      "weightedScore": 11000,
+      "rank": 4
+    },
+    {
       "playerName": "Jack Bradshaw",
       "totalScore": 344664,
       "gamesPlayed": 16,
@@ -174,7 +203,7 @@
         "PVyqEhNg6gdIKv23": 49005
       },
       "weightedScore": 10850,
-      "rank": 4
+      "rank": 5
     },
     {
       "playerName": "Matthew G",
@@ -198,33 +227,6 @@
         "IEz8t25S0IR5A0v7": 23510
       },
       "weightedScore": 10837,
-      "rank": 5
-    },
-    {
-      "playerName": "callum leung",
-      "totalScore": 306552,
-      "gamesPlayed": 15,
-      "totalRoundsPlayed": 80,
-      "challengesWon": 0,
-      "perfectRounds": 14,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18353,
-        "3i1on2KFtSvnQMMl": 13456,
-        "iulxNVNhCz4iRote": 22744,
-        "RtYhwKFR2ErNGFY1": 15130,
-        "663ooruVueCTsTyn": 22473,
-        "OSJgyOUNN2RYySKg": 20141,
-        "jdRWWrgYJHlRSUuV": 21869,
-        "tKXoHKIpSf0681BK": 20106,
-        "18dNMkKbza2oOKAV": 20699,
-        "udPqLpGh0vSRS1qp": 37621,
-        "TBdMvtG1kfCIHX6B": 24320,
-        "OZDEIyiEMivUPZJP": 18147,
-        "IEz8t25S0IR5A0v7": 18385,
-        "YSGMwZENKSDocgKO": 19073,
-        "iDAkQYhvG9P55ZlS": 14035
-      },
-      "weightedScore": 10624,
       "rank": 6
     },
     {
