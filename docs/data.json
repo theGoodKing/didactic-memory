@@ -72,10 +72,10 @@
   "leaderboard": [
     {
       "playerName": "Tomxmclaughlan",
-      "totalScore": 394864,
-      "gamesPlayed": 16,
-      "totalRoundsPlayed": 90,
-      "challengesWon": 5,
+      "totalScore": 411737,
+      "gamesPlayed": 17,
+      "totalRoundsPlayed": 95,
+      "challengesWon": 6,
       "perfectRounds": 30,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17554,
@@ -93,9 +93,10 @@
         "IEz8t25S0IR5A0v7": 15830,
         "YSGMwZENKSDocgKO": 20058,
         "iDAkQYhvG9P55ZlS": 22328,
-        "PVyqEhNg6gdIKv23": 45938
+        "PVyqEhNg6gdIKv23": 45938,
+        "ERch44dFViPpyki1": 16873
       },
-      "weightedScore": 12430,
+      "weightedScore": 12527,
       "rank": 1
     },
     {
@@ -131,7 +132,7 @@
       "totalScore": 381255,
       "gamesPlayed": 17,
       "totalRoundsPlayed": 95,
-      "challengesWon": 2,
+      "challengesWon": 1,
       "perfectRounds": 24,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17381,
@@ -317,9 +318,9 @@
     },
     {
       "playerName": "Ben Apes",
-      "totalScore": 289840,
-      "gamesPlayed": 16,
-      "totalRoundsPlayed": 90,
+      "totalScore": 301186,
+      "gamesPlayed": 17,
+      "totalRoundsPlayed": 95,
       "challengesWon": 1,
       "perfectRounds": 5,
       "challengeScores": {
@@ -338,9 +339,10 @@
         "IEz8t25S0IR5A0v7": 10750,
         "YSGMwZENKSDocgKO": 17231,
         "iDAkQYhvG9P55ZlS": 6509,
-        "PVyqEhNg6gdIKv23": 44554
+        "PVyqEhNg6gdIKv23": 44554,
+        "ERch44dFViPpyki1": 11346
       },
-      "weightedScore": 9124,
+      "weightedScore": 9164,
       "rank": 10
     },
     {
