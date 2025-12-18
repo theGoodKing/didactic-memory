@@ -134,9 +134,9 @@
     },
     {
       "playerName": "Joel",
-      "totalScore": 381255,
-      "gamesPlayed": 17,
-      "totalRoundsPlayed": 95,
+      "totalScore": 394440,
+      "gamesPlayed": 18,
+      "totalRoundsPlayed": 100,
       "challengesWon": 1,
       "perfectRounds": 24,
       "challengeScores": {
@@ -156,9 +156,10 @@
         "YSGMwZENKSDocgKO": 22029,
         "iDAkQYhvG9P55ZlS": 14963,
         "PVyqEhNg6gdIKv23": 45126,
-        "ERch44dFViPpyki1": 16517
+        "ERch44dFViPpyki1": 16517,
+        "fSIPIOmCmIOrYtT4": 13185
       },
-      "weightedScore": 11600,
+      "weightedScore": 11614,
       "rank": 3
     },
     {
@@ -270,6 +271,56 @@
       "rank": 7
     },
     {
+      "playerName": "jjgry",
+      "totalScore": 191257,
+      "gamesPlayed": 9,
+      "totalRoundsPlayed": 45,
+      "challengesWon": 0,
+      "perfectRounds": 21,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 20830,
+        "3i1on2KFtSvnQMMl": 18732,
+        "iulxNVNhCz4iRote": 21276,
+        "RtYhwKFR2ErNGFY1": 21909,
+        "663ooruVueCTsTyn": 23529,
+        "OSJgyOUNN2RYySKg": 19755,
+        "jdRWWrgYJHlRSUuV": 22737,
+        "tKXoHKIpSf0681BK": 20058,
+        "18dNMkKbza2oOKAV": 22431
+      },
+      "weightedScore": 9786,
+      "rank": 8
+    },
+    {
+      "playerName": "Camille",
+      "totalScore": 315623,
+      "gamesPlayed": 17,
+      "totalRoundsPlayed": 95,
+      "challengesWon": 0,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 9245,
+        "3i1on2KFtSvnQMMl": 17589,
+        "iulxNVNhCz4iRote": 17056,
+        "RtYhwKFR2ErNGFY1": 12636,
+        "663ooruVueCTsTyn": 19313,
+        "OSJgyOUNN2RYySKg": 22059,
+        "jdRWWrgYJHlRSUuV": 22661,
+        "tKXoHKIpSf0681BK": 17239,
+        "18dNMkKbza2oOKAV": 19823,
+        "udPqLpGh0vSRS1qp": 32484,
+        "TBdMvtG1kfCIHX6B": 23650,
+        "OZDEIyiEMivUPZJP": 16688,
+        "IEz8t25S0IR5A0v7": 16277,
+        "YSGMwZENKSDocgKO": 17785,
+        "PVyqEhNg6gdIKv23": 24898,
+        "ERch44dFViPpyki1": 14884,
+        "fSIPIOmCmIOrYtT4": 11336
+      },
+      "weightedScore": 9603,
+      "rank": 9
+    },
+    {
       "playerName": "Sophia",
       "totalScore": 312300,
       "gamesPlayed": 17,
@@ -296,40 +347,13 @@
         "ERch44dFViPpyki1": 14980
       },
       "weightedScore": 9502,
-      "rank": 8
-    },
-    {
-      "playerName": "Camille",
-      "totalScore": 289403,
-      "gamesPlayed": 15,
-      "totalRoundsPlayed": 85,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 9245,
-        "3i1on2KFtSvnQMMl": 17589,
-        "iulxNVNhCz4iRote": 17056,
-        "RtYhwKFR2ErNGFY1": 12636,
-        "663ooruVueCTsTyn": 19313,
-        "OSJgyOUNN2RYySKg": 22059,
-        "jdRWWrgYJHlRSUuV": 22661,
-        "tKXoHKIpSf0681BK": 17239,
-        "18dNMkKbza2oOKAV": 19823,
-        "udPqLpGh0vSRS1qp": 32484,
-        "TBdMvtG1kfCIHX6B": 23650,
-        "OZDEIyiEMivUPZJP": 16688,
-        "IEz8t25S0IR5A0v7": 16277,
-        "YSGMwZENKSDocgKO": 17785,
-        "PVyqEhNg6gdIKv23": 24898
-      },
-      "weightedScore": 9440,
-      "rank": 9
+      "rank": 10
     },
     {
       "playerName": "Ben Apes",
-      "totalScore": 301186,
-      "gamesPlayed": 17,
-      "totalRoundsPlayed": 95,
+      "totalScore": 312637,
+      "gamesPlayed": 18,
+      "totalRoundsPlayed": 100,
       "challengesWon": 1,
       "perfectRounds": 5,
       "challengeScores": {
@@ -349,27 +373,10 @@
         "YSGMwZENKSDocgKO": 17231,
         "iDAkQYhvG9P55ZlS": 6509,
         "PVyqEhNg6gdIKv23": 44554,
-        "ERch44dFViPpyki1": 11346
+        "ERch44dFViPpyki1": 11346,
+        "fSIPIOmCmIOrYtT4": 11451
       },
-      "weightedScore": 9164,
-      "rank": 10
-    },
-    {
-      "playerName": "jjgry",
-      "totalScore": 126031,
-      "gamesPlayed": 6,
-      "totalRoundsPlayed": 30,
-      "challengesWon": 0,
-      "perfectRounds": 15,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 20830,
-        "3i1on2KFtSvnQMMl": 18732,
-        "iulxNVNhCz4iRote": 21276,
-        "RtYhwKFR2ErNGFY1": 21909,
-        "663ooruVueCTsTyn": 23529,
-        "OSJgyOUNN2RYySKg": 19755
-      },
-      "weightedScore": 8175,
+      "weightedScore": 9205,
       "rank": 11
     },
     {
@@ -431,6 +438,27 @@
       "rank": 14
     },
     {
+      "playerName": "Philbo",
+      "totalScore": 138324,
+      "gamesPlayed": 9,
+      "totalRoundsPlayed": 50,
+      "challengesWon": 0,
+      "perfectRounds": 4,
+      "challengeScores": {
+        "3i1on2KFtSvnQMMl": 8568,
+        "iulxNVNhCz4iRote": 10872,
+        "RtYhwKFR2ErNGFY1": 2283,
+        "663ooruVueCTsTyn": 19624,
+        "OSJgyOUNN2RYySKg": 20120,
+        "jdRWWrgYJHlRSUuV": 10776,
+        "tKXoHKIpSf0681BK": 9977,
+        "18dNMkKbza2oOKAV": 19160,
+        "udPqLpGh0vSRS1qp": 36944
+      },
+      "weightedScore": 6370,
+      "rank": 15
+    },
+    {
       "playerName": "GleefulRiver175",
       "totalScore": 116097,
       "gamesPlayed": 7,
@@ -447,26 +475,6 @@
         "ERch44dFViPpyki1": 11727
       },
       "weightedScore": 6035,
-      "rank": 15
-    },
-    {
-      "playerName": "Philbo",
-      "totalScore": 101380,
-      "gamesPlayed": 8,
-      "totalRoundsPlayed": 40,
-      "challengesWon": 0,
-      "perfectRounds": 3,
-      "challengeScores": {
-        "3i1on2KFtSvnQMMl": 8568,
-        "iulxNVNhCz4iRote": 10872,
-        "RtYhwKFR2ErNGFY1": 2283,
-        "663ooruVueCTsTyn": 19624,
-        "OSJgyOUNN2RYySKg": 20120,
-        "jdRWWrgYJHlRSUuV": 10776,
-        "tKXoHKIpSf0681BK": 9977,
-        "18dNMkKbza2oOKAV": 19160
-      },
-      "weightedScore": 5569,
       "rank": 16
     },
     {
@@ -503,9 +511,9 @@
     },
     {
       "playerName": "VolcanicOcean231",
-      "totalScore": 66102,
-      "gamesPlayed": 5,
-      "totalRoundsPlayed": 30,
+      "totalScore": 76718,
+      "gamesPlayed": 6,
+      "totalRoundsPlayed": 35,
       "challengesWon": 1,
       "perfectRounds": 0,
       "challengeScores": {
@@ -513,9 +521,10 @@
         "OSJgyOUNN2RYySKg": 14439,
         "udPqLpGh0vSRS1qp": 15022,
         "iDAkQYhvG9P55ZlS": 10810,
+        "ERch44dFViPpyki1": 10616,
         "fSIPIOmCmIOrYtT4": 15629
       },
-      "weightedScore": 3948,
+      "weightedScore": 4265,
       "rank": 19
     },
     {
