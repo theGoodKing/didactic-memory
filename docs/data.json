@@ -239,9 +239,9 @@
     },
     {
       "playerName": "Jodie Laurenson",
-      "totalScore": 286337,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 70,
+      "totalScore": 300305,
+      "gamesPlayed": 13,
+      "totalRoundsPlayed": 75,
       "challengesWon": 1,
       "perfectRounds": 19,
       "challengeScores": {
@@ -256,10 +256,40 @@
         "OZDEIyiEMivUPZJP": 16295,
         "IEz8t25S0IR5A0v7": 22644,
         "iDAkQYhvG9P55ZlS": 22082,
-        "PVyqEhNg6gdIKv23": 45810
+        "PVyqEhNg6gdIKv23": 45810,
+        "ERch44dFViPpyki1": 13968
       },
-      "weightedScore": 10492,
+      "weightedScore": 10567,
       "rank": 7
+    },
+    {
+      "playerName": "Sophia",
+      "totalScore": 312300,
+      "gamesPlayed": 17,
+      "totalRoundsPlayed": 95,
+      "challengesWon": 0,
+      "perfectRounds": 7,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 2257,
+        "3i1on2KFtSvnQMMl": 4526,
+        "iulxNVNhCz4iRote": 23509,
+        "RtYhwKFR2ErNGFY1": 15368,
+        "663ooruVueCTsTyn": 15366,
+        "OSJgyOUNN2RYySKg": 21237,
+        "jdRWWrgYJHlRSUuV": 20981,
+        "tKXoHKIpSf0681BK": 23258,
+        "18dNMkKbza2oOKAV": 21249,
+        "udPqLpGh0vSRS1qp": 37967,
+        "TBdMvtG1kfCIHX6B": 22010,
+        "OZDEIyiEMivUPZJP": 12440,
+        "IEz8t25S0IR5A0v7": 15347,
+        "YSGMwZENKSDocgKO": 12539,
+        "iDAkQYhvG9P55ZlS": 15490,
+        "PVyqEhNg6gdIKv23": 33776,
+        "ERch44dFViPpyki1": 14980
+      },
+      "weightedScore": 9502,
+      "rank": 8
     },
     {
       "playerName": "Camille",
@@ -286,34 +316,6 @@
         "PVyqEhNg6gdIKv23": 24898
       },
       "weightedScore": 9440,
-      "rank": 8
-    },
-    {
-      "playerName": "Sophia",
-      "totalScore": 297320,
-      "gamesPlayed": 16,
-      "totalRoundsPlayed": 90,
-      "challengesWon": 0,
-      "perfectRounds": 7,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 2257,
-        "3i1on2KFtSvnQMMl": 4526,
-        "iulxNVNhCz4iRote": 23509,
-        "RtYhwKFR2ErNGFY1": 15368,
-        "663ooruVueCTsTyn": 15366,
-        "OSJgyOUNN2RYySKg": 21237,
-        "jdRWWrgYJHlRSUuV": 20981,
-        "tKXoHKIpSf0681BK": 23258,
-        "18dNMkKbza2oOKAV": 21249,
-        "udPqLpGh0vSRS1qp": 37967,
-        "TBdMvtG1kfCIHX6B": 22010,
-        "OZDEIyiEMivUPZJP": 12440,
-        "IEz8t25S0IR5A0v7": 15347,
-        "YSGMwZENKSDocgKO": 12539,
-        "iDAkQYhvG9P55ZlS": 15490,
-        "PVyqEhNg6gdIKv23": 33776
-      },
-      "weightedScore": 9360,
       "rank": 9
     },
     {
