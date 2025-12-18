@@ -108,7 +108,7 @@
       "totalScore": 407399,
       "gamesPlayed": 17,
       "totalRoundsPlayed": 95,
-      "challengesWon": 5,
+      "challengesWon": 4,
       "perfectRounds": 32,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
@@ -163,11 +163,11 @@
     },
     {
       "playerName": "callum leung",
-      "totalScore": 352137,
-      "gamesPlayed": 16,
-      "totalRoundsPlayed": 90,
-      "challengesWon": 0,
-      "perfectRounds": 18,
+      "totalScore": 373687,
+      "gamesPlayed": 17,
+      "totalRoundsPlayed": 95,
+      "challengesWon": 1,
+      "perfectRounds": 19,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 18353,
         "3i1on2KFtSvnQMMl": 13456,
@@ -184,9 +184,10 @@
         "IEz8t25S0IR5A0v7": 18385,
         "YSGMwZENKSDocgKO": 19073,
         "iDAkQYhvG9P55ZlS": 14035,
-        "PVyqEhNg6gdIKv23": 45585
+        "PVyqEhNg6gdIKv23": 45585,
+        "ERch44dFViPpyki1": 21550
       },
-      "weightedScore": 11085,
+      "weightedScore": 11369,
       "rank": 4
     },
     {
@@ -194,7 +195,7 @@
       "totalScore": 373622,
       "gamesPlayed": 18,
       "totalRoundsPlayed": 100,
-      "challengesWon": 2,
+      "challengesWon": 1,
       "perfectRounds": 10,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 15353,
@@ -372,6 +373,25 @@
       "rank": 11
     },
     {
+      "playerName": "Joe",
+      "totalScore": 154348,
+      "gamesPlayed": 7,
+      "totalRoundsPlayed": 45,
+      "challengesWon": 0,
+      "perfectRounds": 3,
+      "challengeScores": {
+        "iulxNVNhCz4iRote": 17899,
+        "663ooruVueCTsTyn": 20346,
+        "18dNMkKbza2oOKAV": 20654,
+        "udPqLpGh0vSRS1qp": 34947,
+        "PVyqEhNg6gdIKv23": 35763,
+        "ERch44dFViPpyki1": 12841,
+        "fSIPIOmCmIOrYtT4": 11898
+      },
+      "weightedScore": 7132,
+      "rank": 12
+    },
+    {
       "playerName": "Ibyahmed74",
       "totalScore": 98189,
       "gamesPlayed": 5,
@@ -386,24 +406,6 @@
         "663ooruVueCTsTyn": 22817
       },
       "weightedScore": 7037,
-      "rank": 12
-    },
-    {
-      "playerName": "Joe",
-      "totalScore": 142450,
-      "gamesPlayed": 6,
-      "totalRoundsPlayed": 40,
-      "challengesWon": 0,
-      "perfectRounds": 3,
-      "challengeScores": {
-        "iulxNVNhCz4iRote": 17899,
-        "663ooruVueCTsTyn": 20346,
-        "18dNMkKbza2oOKAV": 20654,
-        "udPqLpGh0vSRS1qp": 34947,
-        "PVyqEhNg6gdIKv23": 35763,
-        "ERch44dFViPpyki1": 12841
-      },
-      "weightedScore": 6930,
       "rank": 13
     },
     {
@@ -500,6 +502,23 @@
       "rank": 18
     },
     {
+      "playerName": "VolcanicOcean231",
+      "totalScore": 66102,
+      "gamesPlayed": 5,
+      "totalRoundsPlayed": 30,
+      "challengesWon": 1,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "RtYhwKFR2ErNGFY1": 10202,
+        "OSJgyOUNN2RYySKg": 14439,
+        "udPqLpGh0vSRS1qp": 15022,
+        "iDAkQYhvG9P55ZlS": 10810,
+        "fSIPIOmCmIOrYtT4": 15629
+      },
+      "weightedScore": 3948,
+      "rank": 19
+    },
+    {
       "playerName": "Caitlin Salt",
       "totalScore": 24188,
       "gamesPlayed": 1,
@@ -510,7 +529,7 @@
         "BTv0qqcesI1eRJV5": 24188
       },
       "weightedScore": 3353,
-      "rank": 19
+      "rank": 20
     },
     {
       "playerName": "Nicfriend21",
@@ -524,22 +543,6 @@
         "3i1on2KFtSvnQMMl": 17001
       },
       "weightedScore": 3338,
-      "rank": 20
-    },
-    {
-      "playerName": "VolcanicOcean231",
-      "totalScore": 50473,
-      "gamesPlayed": 4,
-      "totalRoundsPlayed": 25,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "RtYhwKFR2ErNGFY1": 10202,
-        "OSJgyOUNN2RYySKg": 14439,
-        "udPqLpGh0vSRS1qp": 15022,
-        "iDAkQYhvG9P55ZlS": 10810
-      },
-      "weightedScore": 3249,
       "rank": 21
     },
     {
