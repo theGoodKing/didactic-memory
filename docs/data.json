@@ -67,6 +67,10 @@
     {
       "id": "ERch44dFViPpyki1",
       "name": "Europe"
+    },
+    {
+      "id": "fSIPIOmCmIOrYtT4",
+      "name": "Creepy, Funny, Weird, and Unique World"
     }
   ],
   "leaderboard": [
@@ -75,7 +79,7 @@
       "totalScore": 411737,
       "gamesPlayed": 17,
       "totalRoundsPlayed": 95,
-      "challengesWon": 6,
+      "challengesWon": 5,
       "perfectRounds": 30,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17554,
@@ -101,10 +105,10 @@
     },
     {
       "playerName": "Richard",
-      "totalScore": 389306,
-      "gamesPlayed": 16,
-      "totalRoundsPlayed": 90,
-      "challengesWon": 4,
+      "totalScore": 407399,
+      "gamesPlayed": 17,
+      "totalRoundsPlayed": 95,
+      "challengesWon": 5,
       "perfectRounds": 32,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
@@ -122,9 +126,10 @@
         "IEz8t25S0IR5A0v7": 22766,
         "YSGMwZENKSDocgKO": 18272,
         "iDAkQYhvG9P55ZlS": 15272,
-        "PVyqEhNg6gdIKv23": 45821
+        "PVyqEhNg6gdIKv23": 45821,
+        "ERch44dFViPpyki1": 18093
       },
-      "weightedScore": 12255,
+      "weightedScore": 12395,
       "rank": 2
     },
     {
@@ -186,10 +191,10 @@
     },
     {
       "playerName": "Jack Bradshaw",
-      "totalScore": 361161,
-      "gamesPlayed": 17,
-      "totalRoundsPlayed": 95,
-      "challengesWon": 1,
+      "totalScore": 373622,
+      "gamesPlayed": 18,
+      "totalRoundsPlayed": 100,
+      "challengesWon": 2,
       "perfectRounds": 10,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 15353,
@@ -208,9 +213,10 @@
         "YSGMwZENKSDocgKO": 18991,
         "iDAkQYhvG9P55ZlS": 15871,
         "PVyqEhNg6gdIKv23": 49005,
-        "ERch44dFViPpyki1": 16497
+        "ERch44dFViPpyki1": 16497,
+        "fSIPIOmCmIOrYtT4": 12461
       },
-      "weightedScore": 10988,
+      "weightedScore": 11001,
       "rank": 5
     },
     {
@@ -349,19 +355,20 @@
     },
     {
       "playerName": "jjgry",
-      "totalScore": 106276,
-      "gamesPlayed": 5,
-      "totalRoundsPlayed": 25,
+      "totalScore": 126031,
+      "gamesPlayed": 6,
+      "totalRoundsPlayed": 30,
       "challengesWon": 0,
-      "perfectRounds": 14,
+      "perfectRounds": 15,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 20830,
         "3i1on2KFtSvnQMMl": 18732,
         "iulxNVNhCz4iRote": 21276,
         "RtYhwKFR2ErNGFY1": 21909,
-        "663ooruVueCTsTyn": 23529
+        "663ooruVueCTsTyn": 23529,
+        "OSJgyOUNN2RYySKg": 19755
       },
-      "weightedScore": 7617,
+      "weightedScore": 8175,
       "rank": 11
     },
     {
