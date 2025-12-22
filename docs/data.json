@@ -426,9 +426,9 @@
     },
     {
       "playerName": "Philbo",
-      "totalScore": 199688,
-      "gamesPlayed": 13,
-      "totalRoundsPlayed": 70,
+      "totalScore": 211968,
+      "gamesPlayed": 14,
+      "totalRoundsPlayed": 75,
       "challengesWon": 0,
       "perfectRounds": 4,
       "challengeScores": {
@@ -444,9 +444,10 @@
         "udPqLpGh0vSRS1qp": 36944,
         "TBdMvtG1kfCIHX6B": 16556,
         "OZDEIyiEMivUPZJP": 17913,
-        "IEz8t25S0IR5A0v7": 11673
+        "IEz8t25S0IR5A0v7": 11673,
+        "YSGMwZENKSDocgKO": 12280
       },
-      "weightedScore": 7528,
+      "weightedScore": 7654,
       "rank": 12
     },
     {
