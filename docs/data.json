@@ -75,6 +75,18 @@
     {
       "id": "izG9oCXc5S5ZH0SG",
       "name": "Dirty World"
+    },
+    {
+      "id": "Hhwmv0f5cz6Zj7Om",
+      "name": "UNESCO World Heritage Sites"
+    },
+    {
+      "id": "BskAwrAp82oaQhZv",
+      "name": "Wild Animals"
+    },
+    {
+      "id": "sJMgk7Ss0Oed3Huo",
+      "name": "Unknown Map"
     }
   ],
   "leaderboard": [
@@ -233,9 +245,9 @@
     },
     {
       "playerName": "Jack Bradshaw",
-      "totalScore": 390422,
-      "gamesPlayed": 19,
-      "totalRoundsPlayed": 105,
+      "totalScore": 405136,
+      "gamesPlayed": 20,
+      "totalRoundsPlayed": 110,
       "challengesWon": 1,
       "perfectRounds": 10,
       "challengeScores": {
@@ -257,9 +269,10 @@
         "PVyqEhNg6gdIKv23": 49005,
         "ERch44dFViPpyki1": 16497,
         "fSIPIOmCmIOrYtT4": 12461,
-        "izG9oCXc5S5ZH0SG": 16800
+        "izG9oCXc5S5ZH0SG": 16800,
+        "Hhwmv0f5cz6Zj7Om": 14714
       },
-      "weightedScore": 11139,
+      "weightedScore": 11213,
       "rank": 6
     },
     {
@@ -344,10 +357,10 @@
     },
     {
       "playerName": "Sophia",
-      "totalScore": 339909,
-      "gamesPlayed": 19,
-      "totalRoundsPlayed": 105,
-      "challengesWon": 0,
+      "totalScore": 363779,
+      "gamesPlayed": 21,
+      "totalRoundsPlayed": 115,
+      "challengesWon": 1,
       "perfectRounds": 7,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 2257,
@@ -368,9 +381,11 @@
         "PVyqEhNg6gdIKv23": 33776,
         "ERch44dFViPpyki1": 14980,
         "fSIPIOmCmIOrYtT4": 8795,
-        "izG9oCXc5S5ZH0SG": 18814
+        "izG9oCXc5S5ZH0SG": 18814,
+        "Hhwmv0f5cz6Zj7Om": 17167,
+        "BskAwrAp82oaQhZv": 6703
       },
-      "weightedScore": 9698,
+      "weightedScore": 9778,
       "rank": 10
     },
     {
@@ -524,6 +539,25 @@
       "rank": 17
     },
     {
+      "playerName": "VolcanicOcean231",
+      "totalScore": 87709,
+      "gamesPlayed": 7,
+      "totalRoundsPlayed": 40,
+      "challengesWon": 1,
+      "perfectRounds": 0,
+      "challengeScores": {
+        "RtYhwKFR2ErNGFY1": 10202,
+        "OSJgyOUNN2RYySKg": 14439,
+        "udPqLpGh0vSRS1qp": 15022,
+        "iDAkQYhvG9P55ZlS": 10810,
+        "ERch44dFViPpyki1": 10616,
+        "fSIPIOmCmIOrYtT4": 15629,
+        "BskAwrAp82oaQhZv": 10991
+      },
+      "weightedScore": 4560,
+      "rank": 18
+    },
+    {
       "playerName": "Elliot Mason",
       "totalScore": 56160,
       "gamesPlayed": 4,
@@ -537,24 +571,6 @@
         "RtYhwKFR2ErNGFY1": 9714
       },
       "weightedScore": 4519,
-      "rank": 18
-    },
-    {
-      "playerName": "VolcanicOcean231",
-      "totalScore": 76718,
-      "gamesPlayed": 6,
-      "totalRoundsPlayed": 35,
-      "challengesWon": 0,
-      "perfectRounds": 0,
-      "challengeScores": {
-        "RtYhwKFR2ErNGFY1": 10202,
-        "OSJgyOUNN2RYySKg": 14439,
-        "udPqLpGh0vSRS1qp": 15022,
-        "iDAkQYhvG9P55ZlS": 10810,
-        "ERch44dFViPpyki1": 10616,
-        "fSIPIOmCmIOrYtT4": 15629
-      },
-      "weightedScore": 4265,
       "rank": 19
     },
     {
