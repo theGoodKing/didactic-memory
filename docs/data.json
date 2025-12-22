@@ -86,7 +86,7 @@
     },
     {
       "id": "sJMgk7Ss0Oed3Huo",
-      "name": "Unknown Map"
+      "name": "A Coastal World"
     }
   ],
   "leaderboard": [
@@ -123,11 +123,11 @@
     },
     {
       "playerName": "Richard",
-      "totalScore": 443047,
-      "gamesPlayed": 19,
-      "totalRoundsPlayed": 105,
-      "challengesWon": 3,
-      "perfectRounds": 33,
+      "totalScore": 492043,
+      "gamesPlayed": 22,
+      "totalRoundsPlayed": 120,
+      "challengesWon": 6,
+      "perfectRounds": 34,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
         "3i1on2KFtSvnQMMl": 23318,
@@ -147,9 +147,12 @@
         "PVyqEhNg6gdIKv23": 45821,
         "ERch44dFViPpyki1": 18093,
         "fSIPIOmCmIOrYtT4": 17908,
-        "izG9oCXc5S5ZH0SG": 17740
+        "izG9oCXc5S5ZH0SG": 17740,
+        "Hhwmv0f5cz6Zj7Om": 21881,
+        "BskAwrAp82oaQhZv": 12243,
+        "sJMgk7Ss0Oed3Huo": 14872
       },
-      "weightedScore": 12640,
+      "weightedScore": 12857,
       "rank": 2
     },
     {
@@ -215,9 +218,9 @@
     },
     {
       "playerName": "callum leung",
-      "totalScore": 391341,
-      "gamesPlayed": 18,
-      "totalRoundsPlayed": 100,
+      "totalScore": 433407,
+      "gamesPlayed": 21,
+      "totalRoundsPlayed": 115,
       "challengesWon": 1,
       "perfectRounds": 19,
       "challengeScores": {
@@ -238,9 +241,12 @@
         "iDAkQYhvG9P55ZlS": 14035,
         "PVyqEhNg6gdIKv23": 45585,
         "ERch44dFViPpyki1": 21550,
-        "fSIPIOmCmIOrYtT4": 17654
+        "fSIPIOmCmIOrYtT4": 17654,
+        "izG9oCXc5S5ZH0SG": 12860,
+        "Hhwmv0f5cz6Zj7Om": 17492,
+        "BskAwrAp82oaQhZv": 11714
       },
-      "weightedScore": 11523,
+      "weightedScore": 11649,
       "rank": 5
     },
     {
@@ -360,7 +366,7 @@
       "totalScore": 363779,
       "gamesPlayed": 21,
       "totalRoundsPlayed": 115,
-      "challengesWon": 1,
+      "challengesWon": 0,
       "perfectRounds": 7,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 2257,
@@ -543,7 +549,7 @@
       "totalScore": 87709,
       "gamesPlayed": 7,
       "totalRoundsPlayed": 40,
-      "challengesWon": 1,
+      "challengesWon": 0,
       "perfectRounds": 0,
       "challengeScores": {
         "RtYhwKFR2ErNGFY1": 10202,
