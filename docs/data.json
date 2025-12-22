@@ -141,6 +141,36 @@
       "rank": 2
     },
     {
+      "playerName": "jjgry",
+      "totalScore": 409953,
+      "gamesPlayed": 18,
+      "totalRoundsPlayed": 100,
+      "challengesWon": 1,
+      "perfectRounds": 45,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 20830,
+        "3i1on2KFtSvnQMMl": 18732,
+        "iulxNVNhCz4iRote": 21276,
+        "RtYhwKFR2ErNGFY1": 21909,
+        "663ooruVueCTsTyn": 23529,
+        "OSJgyOUNN2RYySKg": 19755,
+        "jdRWWrgYJHlRSUuV": 22737,
+        "tKXoHKIpSf0681BK": 20058,
+        "18dNMkKbza2oOKAV": 22431,
+        "udPqLpGh0vSRS1qp": 48320,
+        "TBdMvtG1kfCIHX6B": 25000,
+        "OZDEIyiEMivUPZJP": 16558,
+        "IEz8t25S0IR5A0v7": 18945,
+        "YSGMwZENKSDocgKO": 15967,
+        "iDAkQYhvG9P55ZlS": 18992,
+        "PVyqEhNg6gdIKv23": 45373,
+        "ERch44dFViPpyki1": 16129,
+        "fSIPIOmCmIOrYtT4": 13412
+      },
+      "weightedScore": 12071,
+      "rank": 3
+    },
+    {
       "playerName": "Joel",
       "totalScore": 410005,
       "gamesPlayed": 19,
@@ -169,33 +199,6 @@
         "izG9oCXc5S5ZH0SG": 15565
       },
       "weightedScore": 11698,
-      "rank": 3
-    },
-    {
-      "playerName": "jjgry",
-      "totalScore": 335039,
-      "gamesPlayed": 15,
-      "totalRoundsPlayed": 80,
-      "challengesWon": 1,
-      "perfectRounds": 37,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 20830,
-        "3i1on2KFtSvnQMMl": 18732,
-        "iulxNVNhCz4iRote": 21276,
-        "RtYhwKFR2ErNGFY1": 21909,
-        "663ooruVueCTsTyn": 23529,
-        "OSJgyOUNN2RYySKg": 19755,
-        "jdRWWrgYJHlRSUuV": 22737,
-        "tKXoHKIpSf0681BK": 20058,
-        "18dNMkKbza2oOKAV": 22431,
-        "udPqLpGh0vSRS1qp": 48320,
-        "TBdMvtG1kfCIHX6B": 25000,
-        "OZDEIyiEMivUPZJP": 16558,
-        "IEz8t25S0IR5A0v7": 18945,
-        "YSGMwZENKSDocgKO": 15967,
-        "iDAkQYhvG9P55ZlS": 18992
-      },
-      "weightedScore": 11612,
       "rank": 4
     },
     {
@@ -341,9 +344,9 @@
     },
     {
       "playerName": "Sophia",
-      "totalScore": 321095,
-      "gamesPlayed": 18,
-      "totalRoundsPlayed": 100,
+      "totalScore": 339909,
+      "gamesPlayed": 19,
+      "totalRoundsPlayed": 105,
       "challengesWon": 0,
       "perfectRounds": 7,
       "challengeScores": {
@@ -364,9 +367,10 @@
         "iDAkQYhvG9P55ZlS": 15490,
         "PVyqEhNg6gdIKv23": 33776,
         "ERch44dFViPpyki1": 14980,
-        "fSIPIOmCmIOrYtT4": 8795
+        "fSIPIOmCmIOrYtT4": 8795,
+        "izG9oCXc5S5ZH0SG": 18814
       },
-      "weightedScore": 9454,
+      "weightedScore": 9698,
       "rank": 10
     },
     {
@@ -401,9 +405,9 @@
     },
     {
       "playerName": "Philbo",
-      "totalScore": 188015,
-      "gamesPlayed": 12,
-      "totalRoundsPlayed": 65,
+      "totalScore": 199688,
+      "gamesPlayed": 13,
+      "totalRoundsPlayed": 70,
       "challengesWon": 0,
       "perfectRounds": 4,
       "challengeScores": {
@@ -418,9 +422,10 @@
         "18dNMkKbza2oOKAV": 19160,
         "udPqLpGh0vSRS1qp": 36944,
         "TBdMvtG1kfCIHX6B": 16556,
-        "OZDEIyiEMivUPZJP": 17913
+        "OZDEIyiEMivUPZJP": 17913,
+        "IEz8t25S0IR5A0v7": 11673
       },
-      "weightedScore": 7419,
+      "weightedScore": 7528,
       "rank": 12
     },
     {
