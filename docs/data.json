@@ -433,9 +433,9 @@
     },
     {
       "playerName": "Philbo",
-      "totalScore": 211968,
-      "gamesPlayed": 14,
-      "totalRoundsPlayed": 75,
+      "totalScore": 219385,
+      "gamesPlayed": 15,
+      "totalRoundsPlayed": 80,
       "challengesWon": 0,
       "perfectRounds": 4,
       "challengeScores": {
@@ -452,9 +452,10 @@
         "TBdMvtG1kfCIHX6B": 16556,
         "OZDEIyiEMivUPZJP": 17913,
         "IEz8t25S0IR5A0v7": 11673,
-        "YSGMwZENKSDocgKO": 12280
+        "YSGMwZENKSDocgKO": 12280,
+        "iDAkQYhvG9P55ZlS": 7417
       },
-      "weightedScore": 7654,
+      "weightedScore": 7603,
       "rank": 12
     },
     {
@@ -535,6 +536,23 @@
       "rank": 16
     },
     {
+      "playerName": "Elliot Mason",
+      "totalScore": 76751,
+      "gamesPlayed": 5,
+      "totalRoundsPlayed": 25,
+      "challengesWon": 0,
+      "perfectRounds": 3,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 15526,
+        "3i1on2KFtSvnQMMl": 11688,
+        "iulxNVNhCz4iRote": 19232,
+        "RtYhwKFR2ErNGFY1": 9714,
+        "663ooruVueCTsTyn": 20591
+      },
+      "weightedScore": 5501,
+      "rank": 17
+    },
+    {
       "playerName": "Jesse",
       "totalScore": 78393,
       "gamesPlayed": 6,
@@ -550,22 +568,6 @@
         "izG9oCXc5S5ZH0SG": 12324
       },
       "weightedScore": 5085,
-      "rank": 17
-    },
-    {
-      "playerName": "Elliot Mason",
-      "totalScore": 56160,
-      "gamesPlayed": 4,
-      "totalRoundsPlayed": 20,
-      "challengesWon": 0,
-      "perfectRounds": 3,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 15526,
-        "3i1on2KFtSvnQMMl": 11688,
-        "iulxNVNhCz4iRote": 19232,
-        "RtYhwKFR2ErNGFY1": 9714
-      },
-      "weightedScore": 4519,
       "rank": 18
     },
     {
