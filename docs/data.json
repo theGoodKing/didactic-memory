@@ -90,10 +90,45 @@
     },
     {
       "id": "afXKAr8BJCiIueVi",
-      "name": "Unknown Map"
+      "name": "A Thrilling World: Roller Coasters/Amusement Parks"
     }
   ],
   "leaderboard": [
+    {
+      "playerName": "Richard",
+      "totalScore": 511430,
+      "gamesPlayed": 23,
+      "totalRoundsPlayed": 125,
+      "challengesWon": 7,
+      "perfectRounds": 34,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 23700,
+        "3i1on2KFtSvnQMMl": 23318,
+        "iulxNVNhCz4iRote": 21514,
+        "RtYhwKFR2ErNGFY1": 25000,
+        "663ooruVueCTsTyn": 23059,
+        "OSJgyOUNN2RYySKg": 19753,
+        "jdRWWrgYJHlRSUuV": 23381,
+        "tKXoHKIpSf0681BK": 24387,
+        "18dNMkKbza2oOKAV": 22985,
+        "udPqLpGh0vSRS1qp": 38895,
+        "TBdMvtG1kfCIHX6B": 24898,
+        "OZDEIyiEMivUPZJP": 16285,
+        "IEz8t25S0IR5A0v7": 22766,
+        "YSGMwZENKSDocgKO": 18272,
+        "iDAkQYhvG9P55ZlS": 15272,
+        "PVyqEhNg6gdIKv23": 45821,
+        "ERch44dFViPpyki1": 18093,
+        "fSIPIOmCmIOrYtT4": 17908,
+        "izG9oCXc5S5ZH0SG": 17740,
+        "Hhwmv0f5cz6Zj7Om": 21881,
+        "BskAwrAp82oaQhZv": 12243,
+        "sJMgk7Ss0Oed3Huo": 14872,
+        "afXKAr8BJCiIueVi": 19387
+      },
+      "weightedScore": 13003,
+      "rank": 1
+    },
     {
       "playerName": "Tomxmclaughlan",
       "totalScore": 450786,
@@ -123,40 +158,6 @@
         "izG9oCXc5S5ZH0SG": 21139
       },
       "weightedScore": 12861,
-      "rank": 1
-    },
-    {
-      "playerName": "Richard",
-      "totalScore": 492043,
-      "gamesPlayed": 22,
-      "totalRoundsPlayed": 120,
-      "challengesWon": 6,
-      "perfectRounds": 34,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 23700,
-        "3i1on2KFtSvnQMMl": 23318,
-        "iulxNVNhCz4iRote": 21514,
-        "RtYhwKFR2ErNGFY1": 25000,
-        "663ooruVueCTsTyn": 23059,
-        "OSJgyOUNN2RYySKg": 19753,
-        "jdRWWrgYJHlRSUuV": 23381,
-        "tKXoHKIpSf0681BK": 24387,
-        "18dNMkKbza2oOKAV": 22985,
-        "udPqLpGh0vSRS1qp": 38895,
-        "TBdMvtG1kfCIHX6B": 24898,
-        "OZDEIyiEMivUPZJP": 16285,
-        "IEz8t25S0IR5A0v7": 22766,
-        "YSGMwZENKSDocgKO": 18272,
-        "iDAkQYhvG9P55ZlS": 15272,
-        "PVyqEhNg6gdIKv23": 45821,
-        "ERch44dFViPpyki1": 18093,
-        "fSIPIOmCmIOrYtT4": 17908,
-        "izG9oCXc5S5ZH0SG": 17740,
-        "Hhwmv0f5cz6Zj7Om": 21881,
-        "BskAwrAp82oaQhZv": 12243,
-        "sJMgk7Ss0Oed3Huo": 14872
-      },
-      "weightedScore": 12857,
       "rank": 2
     },
     {
@@ -286,6 +287,33 @@
       "rank": 6
     },
     {
+      "playerName": "Jodie Laurenson",
+      "totalScore": 334206,
+      "gamesPlayed": 15,
+      "totalRoundsPlayed": 85,
+      "challengesWon": 2,
+      "perfectRounds": 19,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18487,
+        "3i1on2KFtSvnQMMl": 14794,
+        "iulxNVNhCz4iRote": 18262,
+        "RtYhwKFR2ErNGFY1": 24008,
+        "663ooruVueCTsTyn": 24977,
+        "tKXoHKIpSf0681BK": 14485,
+        "18dNMkKbza2oOKAV": 19817,
+        "udPqLpGh0vSRS1qp": 44676,
+        "OZDEIyiEMivUPZJP": 16295,
+        "IEz8t25S0IR5A0v7": 22644,
+        "iDAkQYhvG9P55ZlS": 22082,
+        "PVyqEhNg6gdIKv23": 45810,
+        "ERch44dFViPpyki1": 13968,
+        "fSIPIOmCmIOrYtT4": 18182,
+        "afXKAr8BJCiIueVi": 15719
+      },
+      "weightedScore": 10901,
+      "rank": 7
+    },
+    {
       "playerName": "Matthew G",
       "totalScore": 274619,
       "gamesPlayed": 12,
@@ -307,32 +335,6 @@
         "IEz8t25S0IR5A0v7": 23510
       },
       "weightedScore": 10837,
-      "rank": 7
-    },
-    {
-      "playerName": "Jodie Laurenson",
-      "totalScore": 318487,
-      "gamesPlayed": 14,
-      "totalRoundsPlayed": 80,
-      "challengesWon": 2,
-      "perfectRounds": 19,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18487,
-        "3i1on2KFtSvnQMMl": 14794,
-        "iulxNVNhCz4iRote": 18262,
-        "RtYhwKFR2ErNGFY1": 24008,
-        "663ooruVueCTsTyn": 24977,
-        "tKXoHKIpSf0681BK": 14485,
-        "18dNMkKbza2oOKAV": 19817,
-        "udPqLpGh0vSRS1qp": 44676,
-        "OZDEIyiEMivUPZJP": 16295,
-        "IEz8t25S0IR5A0v7": 22644,
-        "iDAkQYhvG9P55ZlS": 22082,
-        "PVyqEhNg6gdIKv23": 45810,
-        "ERch44dFViPpyki1": 13968,
-        "fSIPIOmCmIOrYtT4": 18182
-      },
-      "weightedScore": 10781,
       "rank": 8
     },
     {
