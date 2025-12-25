@@ -349,11 +349,11 @@
     },
     {
       "playerName": "Sophia",
-      "totalScore": 393376,
-      "gamesPlayed": 23,
-      "totalRoundsPlayed": 125,
+      "totalScore": 408554,
+      "gamesPlayed": 24,
+      "totalRoundsPlayed": 130,
       "challengesWon": 0,
-      "perfectRounds": 9,
+      "perfectRounds": 11,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 2257,
         "3i1on2KFtSvnQMMl": 4526,
@@ -377,9 +377,10 @@
         "Hhwmv0f5cz6Zj7Om": 17167,
         "BskAwrAp82oaQhZv": 6703,
         "sJMgk7Ss0Oed3Huo": 12153,
-        "afXKAr8BJCiIueVi": 17444
+        "afXKAr8BJCiIueVi": 17444,
+        "g1D9zOhibEQUqelt": 15178
       },
-      "weightedScore": 10001,
+      "weightedScore": 10116,
       "rank": 9
     },
     {
