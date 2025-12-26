@@ -98,7 +98,7 @@
     },
     {
       "id": "O5wG7nlK3G4xZ4Js",
-      "name": "Unknown Map"
+      "name": "World"
     }
   ],
   "leaderboard": [
@@ -349,10 +349,10 @@
     },
     {
       "playerName": "Sophia",
-      "totalScore": 408554,
-      "gamesPlayed": 24,
-      "totalRoundsPlayed": 130,
-      "challengesWon": 0,
+      "totalScore": 427277,
+      "gamesPlayed": 25,
+      "totalRoundsPlayed": 135,
+      "challengesWon": 1,
       "perfectRounds": 11,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 2257,
@@ -378,9 +378,10 @@
         "BskAwrAp82oaQhZv": 6703,
         "sJMgk7Ss0Oed3Huo": 12153,
         "afXKAr8BJCiIueVi": 17444,
-        "g1D9zOhibEQUqelt": 15178
+        "g1D9zOhibEQUqelt": 15178,
+        "O5wG7nlK3G4xZ4Js": 18723
       },
-      "weightedScore": 10116,
+      "weightedScore": 10312,
       "rank": 9
     },
     {
