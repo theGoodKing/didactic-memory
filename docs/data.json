@@ -104,11 +104,11 @@
   "leaderboard": [
     {
       "playerName": "Richard",
-      "totalScore": 511430,
-      "gamesPlayed": 23,
-      "totalRoundsPlayed": 125,
+      "totalScore": 533413,
+      "gamesPlayed": 24,
+      "totalRoundsPlayed": 130,
       "challengesWon": 6,
-      "perfectRounds": 34,
+      "perfectRounds": 36,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
         "3i1on2KFtSvnQMMl": 23318,
@@ -132,9 +132,10 @@
         "Hhwmv0f5cz6Zj7Om": 21881,
         "BskAwrAp82oaQhZv": 12243,
         "sJMgk7Ss0Oed3Huo": 14872,
-        "afXKAr8BJCiIueVi": 19387
+        "afXKAr8BJCiIueVi": 19387,
+        "g1D9zOhibEQUqelt": 21983
       },
-      "weightedScore": 13003,
+      "weightedScore": 13208,
       "rank": 1
     },
     {
@@ -203,7 +204,7 @@
       "totalScore": 471269,
       "gamesPlayed": 23,
       "totalRoundsPlayed": 125,
-      "challengesWon": 2,
+      "challengesWon": 1,
       "perfectRounds": 22,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 18353,
@@ -235,10 +236,10 @@
     },
     {
       "playerName": "Joel",
-      "totalScore": 425567,
-      "gamesPlayed": 20,
-      "totalRoundsPlayed": 110,
-      "challengesWon": 1,
+      "totalScore": 456899,
+      "gamesPlayed": 22,
+      "totalRoundsPlayed": 120,
+      "challengesWon": 2,
       "perfectRounds": 24,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17381,
@@ -260,9 +261,11 @@
         "ERch44dFViPpyki1": 16517,
         "fSIPIOmCmIOrYtT4": 13185,
         "izG9oCXc5S5ZH0SG": 15565,
-        "Hhwmv0f5cz6Zj7Om": 15562
+        "Hhwmv0f5cz6Zj7Om": 15562,
+        "BskAwrAp82oaQhZv": 15101,
+        "sJMgk7Ss0Oed3Huo": 16231
       },
-      "weightedScore": 11779,
+      "weightedScore": 11938,
       "rank": 5
     },
     {
