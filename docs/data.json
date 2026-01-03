@@ -104,11 +104,11 @@
   "leaderboard": [
     {
       "playerName": "Richard",
-      "totalScore": 533413,
-      "gamesPlayed": 24,
-      "totalRoundsPlayed": 130,
-      "challengesWon": 5,
-      "perfectRounds": 36,
+      "totalScore": 557870,
+      "gamesPlayed": 25,
+      "totalRoundsPlayed": 135,
+      "challengesWon": 6,
+      "perfectRounds": 37,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 23700,
         "3i1on2KFtSvnQMMl": 23318,
@@ -133,9 +133,10 @@
         "BskAwrAp82oaQhZv": 12243,
         "sJMgk7Ss0Oed3Huo": 14872,
         "afXKAr8BJCiIueVi": 19387,
-        "g1D9zOhibEQUqelt": 21983
+        "g1D9zOhibEQUqelt": 21983,
+        "O5wG7nlK3G4xZ4Js": 24457
       },
-      "weightedScore": 13208,
+      "weightedScore": 13464,
       "rank": 1
     },
     {
@@ -174,7 +175,7 @@
       "totalScore": 517096,
       "gamesPlayed": 25,
       "totalRoundsPlayed": 135,
-      "challengesWon": 4,
+      "challengesWon": 3,
       "perfectRounds": 30,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17381,
@@ -273,11 +274,11 @@
     },
     {
       "playerName": "Jack Bradshaw",
-      "totalScore": 464838,
-      "gamesPlayed": 24,
-      "totalRoundsPlayed": 130,
+      "totalScore": 484035,
+      "gamesPlayed": 25,
+      "totalRoundsPlayed": 135,
       "challengesWon": 2,
-      "perfectRounds": 13,
+      "perfectRounds": 14,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 15353,
         "3i1on2KFtSvnQMMl": 19745,
@@ -302,9 +303,10 @@
         "BskAwrAp82oaQhZv": 16377,
         "sJMgk7Ss0Oed3Huo": 13845,
         "afXKAr8BJCiIueVi": 13906,
-        "g1D9zOhibEQUqelt": 15574
+        "g1D9zOhibEQUqelt": 15574,
+        "O5wG7nlK3G4xZ4Js": 19197
       },
-      "weightedScore": 11510,
+      "weightedScore": 11682,
       "rank": 6
     },
     {
