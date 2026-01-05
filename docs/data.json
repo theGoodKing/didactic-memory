@@ -141,11 +141,11 @@
     },
     {
       "playerName": "Tomxmclaughlan",
-      "totalScore": 450786,
-      "gamesPlayed": 19,
-      "totalRoundsPlayed": 105,
-      "challengesWon": 6,
-      "perfectRounds": 30,
+      "totalScore": 494785,
+      "gamesPlayed": 22,
+      "totalRoundsPlayed": 120,
+      "challengesWon": 7,
+      "perfectRounds": 32,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17554,
         "3i1on2KFtSvnQMMl": 19950,
@@ -165,9 +165,12 @@
         "PVyqEhNg6gdIKv23": 45938,
         "ERch44dFViPpyki1": 16873,
         "fSIPIOmCmIOrYtT4": 17910,
-        "izG9oCXc5S5ZH0SG": 21139
+        "izG9oCXc5S5ZH0SG": 21139,
+        "Hhwmv0f5cz6Zj7Om": 16232,
+        "BskAwrAp82oaQhZv": 10820,
+        "sJMgk7Ss0Oed3Huo": 16947
       },
-      "weightedScore": 12861,
+      "weightedScore": 12928,
       "rank": 2
     },
     {
@@ -175,7 +178,7 @@
       "totalScore": 517096,
       "gamesPlayed": 25,
       "totalRoundsPlayed": 135,
-      "challengesWon": 3,
+      "challengesWon": 2,
       "perfectRounds": 30,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 17381,
@@ -208,6 +211,42 @@
       "rank": 3
     },
     {
+      "playerName": "callum leung",
+      "totalScore": 489541,
+      "gamesPlayed": 24,
+      "totalRoundsPlayed": 130,
+      "challengesWon": 1,
+      "perfectRounds": 22,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 18353,
+        "3i1on2KFtSvnQMMl": 13456,
+        "iulxNVNhCz4iRote": 22744,
+        "RtYhwKFR2ErNGFY1": 15130,
+        "663ooruVueCTsTyn": 22473,
+        "OSJgyOUNN2RYySKg": 20141,
+        "jdRWWrgYJHlRSUuV": 21869,
+        "tKXoHKIpSf0681BK": 20106,
+        "18dNMkKbza2oOKAV": 20699,
+        "udPqLpGh0vSRS1qp": 37621,
+        "TBdMvtG1kfCIHX6B": 24320,
+        "OZDEIyiEMivUPZJP": 18147,
+        "IEz8t25S0IR5A0v7": 18385,
+        "YSGMwZENKSDocgKO": 19073,
+        "iDAkQYhvG9P55ZlS": 14035,
+        "PVyqEhNg6gdIKv23": 45585,
+        "ERch44dFViPpyki1": 21550,
+        "fSIPIOmCmIOrYtT4": 17654,
+        "izG9oCXc5S5ZH0SG": 12860,
+        "Hhwmv0f5cz6Zj7Om": 17492,
+        "BskAwrAp82oaQhZv": 11714,
+        "afXKAr8BJCiIueVi": 19387,
+        "g1D9zOhibEQUqelt": 18475,
+        "O5wG7nlK3G4xZ4Js": 18272
+      },
+      "weightedScore": 12121,
+      "rank": 4
+    },
+    {
       "playerName": "jjgry",
       "totalScore": 409953,
       "gamesPlayed": 18,
@@ -235,41 +274,6 @@
         "fSIPIOmCmIOrYtT4": 13412
       },
       "weightedScore": 12071,
-      "rank": 4
-    },
-    {
-      "playerName": "callum leung",
-      "totalScore": 471269,
-      "gamesPlayed": 23,
-      "totalRoundsPlayed": 125,
-      "challengesWon": 1,
-      "perfectRounds": 22,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 18353,
-        "3i1on2KFtSvnQMMl": 13456,
-        "iulxNVNhCz4iRote": 22744,
-        "RtYhwKFR2ErNGFY1": 15130,
-        "663ooruVueCTsTyn": 22473,
-        "OSJgyOUNN2RYySKg": 20141,
-        "jdRWWrgYJHlRSUuV": 21869,
-        "tKXoHKIpSf0681BK": 20106,
-        "18dNMkKbza2oOKAV": 20699,
-        "udPqLpGh0vSRS1qp": 37621,
-        "TBdMvtG1kfCIHX6B": 24320,
-        "OZDEIyiEMivUPZJP": 18147,
-        "IEz8t25S0IR5A0v7": 18385,
-        "YSGMwZENKSDocgKO": 19073,
-        "iDAkQYhvG9P55ZlS": 14035,
-        "PVyqEhNg6gdIKv23": 45585,
-        "ERch44dFViPpyki1": 21550,
-        "fSIPIOmCmIOrYtT4": 17654,
-        "izG9oCXc5S5ZH0SG": 12860,
-        "Hhwmv0f5cz6Zj7Om": 17492,
-        "BskAwrAp82oaQhZv": 11714,
-        "afXKAr8BJCiIueVi": 19387,
-        "g1D9zOhibEQUqelt": 18475
-      },
-      "weightedScore": 11982,
       "rank": 5
     },
     {
@@ -429,9 +433,9 @@
     },
     {
       "playerName": "Ben Apes",
-      "totalScore": 312637,
-      "gamesPlayed": 18,
-      "totalRoundsPlayed": 100,
+      "totalScore": 355856,
+      "gamesPlayed": 21,
+      "totalRoundsPlayed": 115,
       "challengesWon": 1,
       "perfectRounds": 5,
       "challengeScores": {
@@ -452,9 +456,12 @@
         "iDAkQYhvG9P55ZlS": 6509,
         "PVyqEhNg6gdIKv23": 44554,
         "ERch44dFViPpyki1": 11346,
-        "fSIPIOmCmIOrYtT4": 11451
+        "fSIPIOmCmIOrYtT4": 11451,
+        "izG9oCXc5S5ZH0SG": 18758,
+        "Hhwmv0f5cz6Zj7Om": 15385,
+        "BskAwrAp82oaQhZv": 9076
       },
-      "weightedScore": 9205,
+      "weightedScore": 9565,
       "rank": 11
     },
     {
