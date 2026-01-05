@@ -103,6 +103,43 @@
   ],
   "leaderboard": [
     {
+      "playerName": "Tomxmclaughlan",
+      "totalScore": 558089,
+      "gamesPlayed": 25,
+      "totalRoundsPlayed": 135,
+      "challengesWon": 7,
+      "perfectRounds": 37,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 17554,
+        "3i1on2KFtSvnQMMl": 19950,
+        "iulxNVNhCz4iRote": 22668,
+        "RtYhwKFR2ErNGFY1": 21961,
+        "663ooruVueCTsTyn": 24483,
+        "OSJgyOUNN2RYySKg": 23419,
+        "jdRWWrgYJHlRSUuV": 22485,
+        "tKXoHKIpSf0681BK": 24869,
+        "18dNMkKbza2oOKAV": 23037,
+        "udPqLpGh0vSRS1qp": 48989,
+        "TBdMvtG1kfCIHX6B": 24894,
+        "OZDEIyiEMivUPZJP": 16401,
+        "IEz8t25S0IR5A0v7": 15830,
+        "YSGMwZENKSDocgKO": 20058,
+        "iDAkQYhvG9P55ZlS": 22328,
+        "PVyqEhNg6gdIKv23": 45938,
+        "ERch44dFViPpyki1": 16873,
+        "fSIPIOmCmIOrYtT4": 17910,
+        "izG9oCXc5S5ZH0SG": 21139,
+        "Hhwmv0f5cz6Zj7Om": 16232,
+        "BskAwrAp82oaQhZv": 10820,
+        "sJMgk7Ss0Oed3Huo": 16947,
+        "afXKAr8BJCiIueVi": 21654,
+        "g1D9zOhibEQUqelt": 20817,
+        "O5wG7nlK3G4xZ4Js": 20833
+      },
+      "weightedScore": 13469,
+      "rank": 1
+    },
+    {
       "playerName": "Richard",
       "totalScore": 557870,
       "gamesPlayed": 25,
@@ -137,40 +174,6 @@
         "O5wG7nlK3G4xZ4Js": 24457
       },
       "weightedScore": 13464,
-      "rank": 1
-    },
-    {
-      "playerName": "Tomxmclaughlan",
-      "totalScore": 494785,
-      "gamesPlayed": 22,
-      "totalRoundsPlayed": 120,
-      "challengesWon": 7,
-      "perfectRounds": 32,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 17554,
-        "3i1on2KFtSvnQMMl": 19950,
-        "iulxNVNhCz4iRote": 22668,
-        "RtYhwKFR2ErNGFY1": 21961,
-        "663ooruVueCTsTyn": 24483,
-        "OSJgyOUNN2RYySKg": 23419,
-        "jdRWWrgYJHlRSUuV": 22485,
-        "tKXoHKIpSf0681BK": 24869,
-        "18dNMkKbza2oOKAV": 23037,
-        "udPqLpGh0vSRS1qp": 48989,
-        "TBdMvtG1kfCIHX6B": 24894,
-        "OZDEIyiEMivUPZJP": 16401,
-        "IEz8t25S0IR5A0v7": 15830,
-        "YSGMwZENKSDocgKO": 20058,
-        "iDAkQYhvG9P55ZlS": 22328,
-        "PVyqEhNg6gdIKv23": 45938,
-        "ERch44dFViPpyki1": 16873,
-        "fSIPIOmCmIOrYtT4": 17910,
-        "izG9oCXc5S5ZH0SG": 21139,
-        "Hhwmv0f5cz6Zj7Om": 16232,
-        "BskAwrAp82oaQhZv": 10820,
-        "sJMgk7Ss0Oed3Huo": 16947
-      },
-      "weightedScore": 12928,
       "rank": 2
     },
     {
@@ -403,11 +406,11 @@
     },
     {
       "playerName": "Camille",
-      "totalScore": 332730,
-      "gamesPlayed": 18,
-      "totalRoundsPlayed": 100,
+      "totalScore": 411478,
+      "gamesPlayed": 24,
+      "totalRoundsPlayed": 130,
       "challengesWon": 0,
-      "perfectRounds": 0,
+      "perfectRounds": 2,
       "challengeScores": {
         "BTv0qqcesI1eRJV5": 9245,
         "3i1on2KFtSvnQMMl": 17589,
@@ -426,16 +429,22 @@
         "PVyqEhNg6gdIKv23": 24898,
         "ERch44dFViPpyki1": 14884,
         "fSIPIOmCmIOrYtT4": 11336,
-        "izG9oCXc5S5ZH0SG": 17107
+        "izG9oCXc5S5ZH0SG": 17107,
+        "Hhwmv0f5cz6Zj7Om": 18384,
+        "BskAwrAp82oaQhZv": 6336,
+        "sJMgk7Ss0Oed3Huo": 9628,
+        "afXKAr8BJCiIueVi": 14952,
+        "g1D9zOhibEQUqelt": 15395,
+        "O5wG7nlK3G4xZ4Js": 14053
       },
-      "weightedScore": 9797,
+      "weightedScore": 10188,
       "rank": 10
     },
     {
       "playerName": "Ben Apes",
-      "totalScore": 355856,
-      "gamesPlayed": 21,
-      "totalRoundsPlayed": 115,
+      "totalScore": 410683,
+      "gamesPlayed": 25,
+      "totalRoundsPlayed": 135,
       "challengesWon": 1,
       "perfectRounds": 5,
       "challengeScores": {
@@ -459,16 +468,20 @@
         "fSIPIOmCmIOrYtT4": 11451,
         "izG9oCXc5S5ZH0SG": 18758,
         "Hhwmv0f5cz6Zj7Om": 15385,
-        "BskAwrAp82oaQhZv": 9076
+        "BskAwrAp82oaQhZv": 9076,
+        "sJMgk7Ss0Oed3Huo": 9718,
+        "afXKAr8BJCiIueVi": 12336,
+        "g1D9zOhibEQUqelt": 15791,
+        "O5wG7nlK3G4xZ4Js": 16982
       },
-      "weightedScore": 9565,
+      "weightedScore": 9911,
       "rank": 11
     },
     {
       "playerName": "Philbo",
-      "totalScore": 253109,
-      "gamesPlayed": 16,
-      "totalRoundsPlayed": 90,
+      "totalScore": 268376,
+      "gamesPlayed": 18,
+      "totalRoundsPlayed": 100,
       "challengesWon": 0,
       "perfectRounds": 8,
       "challengeScores": {
@@ -487,9 +500,11 @@
         "IEz8t25S0IR5A0v7": 11673,
         "YSGMwZENKSDocgKO": 12280,
         "iDAkQYhvG9P55ZlS": 7417,
-        "PVyqEhNg6gdIKv23": 33724
+        "PVyqEhNg6gdIKv23": 33724,
+        "ERch44dFViPpyki1": 6741,
+        "fSIPIOmCmIOrYtT4": 8526
       },
-      "weightedScore": 7968,
+      "weightedScore": 7902,
       "rank": 12
     },
     {
