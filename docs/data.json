@@ -214,6 +214,37 @@
       "rank": 3
     },
     {
+      "playerName": "jjgry",
+      "totalScore": 429793,
+      "gamesPlayed": 19,
+      "totalRoundsPlayed": 105,
+      "challengesWon": 1,
+      "perfectRounds": 45,
+      "challengeScores": {
+        "BTv0qqcesI1eRJV5": 20830,
+        "3i1on2KFtSvnQMMl": 18732,
+        "iulxNVNhCz4iRote": 21276,
+        "RtYhwKFR2ErNGFY1": 21909,
+        "663ooruVueCTsTyn": 23529,
+        "OSJgyOUNN2RYySKg": 19755,
+        "jdRWWrgYJHlRSUuV": 22737,
+        "tKXoHKIpSf0681BK": 20058,
+        "18dNMkKbza2oOKAV": 22431,
+        "udPqLpGh0vSRS1qp": 48320,
+        "TBdMvtG1kfCIHX6B": 25000,
+        "OZDEIyiEMivUPZJP": 16558,
+        "IEz8t25S0IR5A0v7": 18945,
+        "YSGMwZENKSDocgKO": 15967,
+        "iDAkQYhvG9P55ZlS": 18992,
+        "PVyqEhNg6gdIKv23": 45373,
+        "ERch44dFViPpyki1": 16129,
+        "fSIPIOmCmIOrYtT4": 13412,
+        "izG9oCXc5S5ZH0SG": 19840
+      },
+      "weightedScore": 12262,
+      "rank": 4
+    },
+    {
       "playerName": "callum leung",
       "totalScore": 489541,
       "gamesPlayed": 24,
@@ -247,36 +278,6 @@
         "O5wG7nlK3G4xZ4Js": 18272
       },
       "weightedScore": 12121,
-      "rank": 4
-    },
-    {
-      "playerName": "jjgry",
-      "totalScore": 409953,
-      "gamesPlayed": 18,
-      "totalRoundsPlayed": 100,
-      "challengesWon": 1,
-      "perfectRounds": 45,
-      "challengeScores": {
-        "BTv0qqcesI1eRJV5": 20830,
-        "3i1on2KFtSvnQMMl": 18732,
-        "iulxNVNhCz4iRote": 21276,
-        "RtYhwKFR2ErNGFY1": 21909,
-        "663ooruVueCTsTyn": 23529,
-        "OSJgyOUNN2RYySKg": 19755,
-        "jdRWWrgYJHlRSUuV": 22737,
-        "tKXoHKIpSf0681BK": 20058,
-        "18dNMkKbza2oOKAV": 22431,
-        "udPqLpGh0vSRS1qp": 48320,
-        "TBdMvtG1kfCIHX6B": 25000,
-        "OZDEIyiEMivUPZJP": 16558,
-        "IEz8t25S0IR5A0v7": 18945,
-        "YSGMwZENKSDocgKO": 15967,
-        "iDAkQYhvG9P55ZlS": 18992,
-        "PVyqEhNg6gdIKv23": 45373,
-        "ERch44dFViPpyki1": 16129,
-        "fSIPIOmCmIOrYtT4": 13412
-      },
-      "weightedScore": 12071,
       "rank": 5
     },
     {
