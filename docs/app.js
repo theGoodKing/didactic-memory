@@ -163,6 +163,9 @@ document.addEventListener("DOMContentLoaded", () => {
         headerRow.appendChild(weightedHeader);
         headerRow.appendChild(createHeader({ text: 'Wins', sortKey: 'challengesWon', isSortable: true }));
         headerRow.appendChild(createHeader({ text: 'Perfect Rounds', sortKey: 'perfectRounds', isSortable: true }));
+        headerRow.appendChild(createHeader({ text: 'Avg Round Score', sortKey: 'averageScorePerRound', isSortable: true }));
+        headerRow.appendChild(createHeader({ text: 'Avg Steps', sortKey: 'averageStepsPerRound', isSortable: true }));
+        headerRow.appendChild(createHeader({ text: 'Avg Time', sortKey: 'averageTimePerRound', isSortable: true }));
 
         tableHead.appendChild(headerRow);
     }
@@ -196,6 +199,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 <td>${player.weightedScore.toLocaleString()}</td>
                 <td>${player.challengesWon}</td>
                 <td>${player.perfectRounds.toLocaleString()}</td>
+                <td>${player.averageScorePerRound.toLocaleString()}</td>
+                <td>${player.averageStepsPerRound.toLocaleString()}</td>
+                <td>${player.averageTimePerRound.toLocaleString()}</td>
             `;
             row.innerHTML = rowHtml;
             tableBody.appendChild(row);

@@ -20,11 +20,20 @@ interface LeaderboardPlayer {
   challengesWon: number;
   perfectRounds: number;
   challengeScores: { [challengeId: string]: number };
+  totalSteps: number;
+  totalTime: number;
+  averageScorePerRound: number;
+  averageStepsPerRound: number;
+  averageTimePerRound: number;
 }
 
 interface OutputData {
   challengeDetails: ChallengeDetails[];
   leaderboard: LeaderboardPlayer[];
+  grandTotals: {
+    totalSteps: number;
+    totalTime: number;
+  };
 }
 
 // --- Main function ---
@@ -54,6 +63,8 @@ async function updateLeaderboard() {
     challengesWon: number;
     perfectRounds: number;
     challengeScores: { [challengeId: string]: number };
+    totalSteps: number;
+    totalTime: number;
   }>();
   
   const challengeDetails: ChallengeDetails[] = [];
@@ -101,6 +112,8 @@ async function updateLeaderboard() {
         const playerName = player.nick;
         const playerId = player.id;
         const numRounds = player.guesses.length;
+        const totalSteps = parseInt(player.totalStepsCount, 10) || 0;
+        const totalTime = parseInt(player.totalTime, 10) || 0;
 
         if (isNaN(score) || numRounds === 0) {
           console.warn(`Could not parse score or found 0 rounds for player: ${playerName}. Skipping.`);
@@ -115,12 +128,16 @@ async function updateLeaderboard() {
           challengesWon: 0,
           perfectRounds: 0,
           challengeScores: {},
+          totalSteps: 0,
+          totalTime: 0,
         };
 
         existingPlayer.totalScore += score;
         existingPlayer.gamesPlayed += 1;
         existingPlayer.totalRoundsPlayed += numRounds;
         existingPlayer.challengeScores[challengeId] = score;
+        existingPlayer.totalSteps += totalSteps;
+        existingPlayer.totalTime += totalTime;
 
         if (playerId === winnerId) {
           existingPlayer.challengesWon += 1;
@@ -144,6 +161,8 @@ async function updateLeaderboard() {
     .map(p => {
       // Calculate a normalized average score per round
       const averageScorePerRound = p.totalRoundsPlayed > 0 ? p.totalScore / p.totalRoundsPlayed : 0;
+      const averageStepsPerRound = p.totalRoundsPlayed > 0 ? p.totalSteps / p.totalRoundsPlayed : 0;
+      const averageTimePerRound = p.totalRoundsPlayed > 0 ? p.totalTime / p.totalRoundsPlayed : 0;
       
       // Weighted score uses the normalized score and rewards playing more games.
       const weightedScore = averageScorePerRound * Math.log(p.gamesPlayed + 1);
@@ -151,24 +170,42 @@ async function updateLeaderboard() {
       return {
         ...p,
         weightedScore, // Keep it unrounded for sorting
+        averageScorePerRound,
+        averageStepsPerRound,
+        averageTimePerRound,
       };
     })
     .sort((a, b) => b.weightedScore - a.weightedScore);
   
-  // 4. Assign ranks
+  // 4. Calculate grand totals
+  let grandTotalSteps = 0;
+  let grandTotalTime = 0;
+  for (const player of rankedPlayers) {
+    grandTotalSteps += player.totalSteps;
+    grandTotalTime += player.totalTime;
+  }
+  
+  // 5. Assign ranks
   const finalLeaderboard: LeaderboardPlayer[] = rankedPlayers.map((p, index) => ({
     ...p,
     rank: index + 1,
     weightedScore: Math.round(p.weightedScore), // round for display
+    averageScorePerRound: Math.round(p.averageScorePerRound),
+    averageStepsPerRound: Math.round(p.averageStepsPerRound * 100) / 100,
+    averageTimePerRound: Math.round(p.averageTimePerRound * 100) / 100,
   }));
 
-  // 5. Create final output object
+  // 6. Create final output object
   const outputData: OutputData = {
     challengeDetails: challengeDetails,
     leaderboard: finalLeaderboard,
+    grandTotals: {
+      totalSteps: grandTotalSteps,
+      totalTime: grandTotalTime,
+    },
   };
 
-  // 6. Write to data.json
+  // 7. Write to data.json
   try {
     await Deno.writeTextFile("./docs/data.json", JSON.stringify(outputData, null, 2));
     console.log(`Successfully wrote leaderboard to ./docs/data.json with ${finalLeaderboard.length} players.`);
