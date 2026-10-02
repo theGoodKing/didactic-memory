@@ -3,11 +3,16 @@
 name: Update Geoguessr Scores
 
 on:
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  # Runs the job every 8 hours
-  # schedule:
-  #   - cron: '0 7,10,13,16 * * 1-5'
+  schedule:
+    # Cron is UTC; the script itself enforces the Europe/London start/cutoff windows.
+    - cron: "17 7-17 * * 1-5"
+    # Extra runs shortly before the Friday 15:00 London cutoff (covers both GMT and BST).
+    - cron: "45 13,14 * * 5"
+
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
 
 jobs:
   update-scores:
@@ -18,44 +23,24 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v1
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          deno-version: v1.x
+          python-version: "3.12"
 
-      - name: Create config.json from secrets
-        # This step creates the config.json file needed by the Deno script.
-        # YOU MUST create the following secrets in your repository settings
-        # under "Secrets and variables" > "Actions":
-        #
-        # 1. GEO_COOKIE: Your Geoguessr account cookie (_ncfa).
-        # 2. CHALLENGE_IDS: A comma-separated list of challenge IDs (e.g., "id1,id2,id3").
-        run: |
-          echo "Creating config.json..."
-          if [ -z "${{ secrets.GEO_COOKIE }}" ] || [ -z "${{ secrets.CHALLENGE_IDS }}" ]; then
-            echo "::error::Required secrets GEO_COOKIE or CHALLENGE_IDS are not set."
-            exit 1
-          fi
-          # Convert comma-separated string into a JSON array of strings
-          formatted_ids=$(echo "${{ secrets.CHALLENGE_IDS }}" | awk -F, '{for(i=1;i<=NF;i++) printf "\"%s\"%s", $i, (i<NF?",":"")}')
-          
-          echo '{ 
-            "cookie": "${{ secrets.GEO_COOKIE }}",
-            "challengeIds": [ '$formatted_ids' ]
-          }' > config.json
-          echo "config.json created successfully."
-
-      - name: Run Deno script to update data
-        run: deno run --allow-net --allow-read --allow-write scripts/update_data.ts
+      - name: Scrape active challenges and rebuild site data
+        env:
+          GEOGUESSR_SESSION_TOKEN: ${{ secrets.GEOGUESSR_SESSION_TOKEN }}
+        run: python -m scraper
 
       - name: Commit and push if data changed
-        uses: stefanzweifel/git-auto-commit-action@v4
+        if: success() || failure()
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: Update geoguessr league data'
-          branch: main # Or your default branch
-          file_pattern: 'docs/data.json'
-          commit_user_name: 'GitHub Actions Bot'
-          commit_user_email: 'actions@github.com'
-          commit_author: 'GitHub Actions Bot <actions@github.com>'
+          commit_message: "chore: Update geoguessr league data"
+          file_pattern: "docs/data.json data/raw/**"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
