@@ -1,2 +1,5 @@
 # Ignore the configuration file containing secrets
 config.json
+.venv/
+__pycache__/
+*.csv.tmp

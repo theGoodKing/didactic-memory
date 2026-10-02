@@ -1,0 +1,19 @@
+# Points system. Rebuild with `python3 -m scraper --no-scrape` after editing.
+
+# Timezone used for all week start/cutoff times in schedule.toml
+timezone = "Europe/London"
+
+# Only games with at least this many rounds are counted
+min_rounds = 5
+
+# Bonus points awarded to every participant for each round scoring exactly this
+perfect_round_score = 5000
+bonus_per_perfect_round = 1
+
+# Number of top GP finishes that count as a podium
+podium_positions = 3
+
+# Points by finishing position (index 0 = 1st place)
+[positions]
+gp = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
+sprint = [8, 7, 6, 5, 4, 3, 2, 1]

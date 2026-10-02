@@ -1,49 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geoguessr League</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%231a1a1a%22 stroke=%22%2300f5d4%22 stroke-width=%2210%22/><polygon points=%2250,15 55,50 50,85 45,50%22 fill=%22%23f5f5f5%22 /><polygon points=%2215,50 50,55 85,50 50,45%22 fill=%22%23f5f5f5%22 /></svg>">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GeoGuessr Grand Prix</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%2315151e%22 stroke=%22%23e10600%22 stroke-width=%2210%22/><polygon points=%2250,15 55,50 50,85 45,50%22 fill=%22%23f5f5f5%22 /><polygon points=%2215,50 50,55 85,50 50,45%22 fill=%22%23f5f5f5%22 /></svg>"
+    />
+  </head>
+  <body>
     <div class="container">
-        <header class="page-header">
-            <img src="logo.svg" alt="Geoguessr League Logo" class="logo">
-            <h1>Geoguessr League</h1>
-        </header>
-        <p>Leaderboard updated automatically. See you on the roads!</p>
-        <div class="toggle-container">
-            <label class="toggle-switch">
-                <input type="checkbox" id="details-toggle">
-                <span class="slider"></span>
-            </label>
-            <span class="toggle-label">Show Full Details</span>
+      <header class="page-header">
+        <img src="logo.svg" alt="" class="logo" />
+        <h1>GeoGuessr Grand Prix</h1>
+      </header>
+      <p id="updated" class="subtitle"></p>
+      <nav id="tabs" class="tabs" aria-label="Standings and weeks"></nav>
+      <section id="view" hidden>
+        <h2 id="view-title"></h2>
+        <div id="view-meta" class="view-meta"></div>
+        <div class="table-container">
+          <table id="results-table">
+            <thead></thead>
+            <tbody></tbody>
+          </table>
         </div>
-        <div id="leaderboard-container">
-            <table id="leaderboard-table">
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th class="player-header">Player</th>
-                        <th>Total Score</th>
-                        <th>Games Played</th>
-                        <th>Wins</th>
-                        <th>Perfect Rounds</th>
-                        <th>Avg Round Score</th>
-                        <th>Avg Steps</th>
-                        <th>Avg Time</th>
-                    </tr>
-                </thead>
-                <tbody id="leaderboard-body">
-                    <!-- Data will be injected here by JavaScript -->
-                </tbody>
-            </table>
-            <div id="loading">Loading leaderboard...</div>
-            <div id="error" style="display: none; color: red;"></div>
-        </div>
+        <div id="empty" class="message" hidden></div>
+      </section>
+      <div id="loading" class="message">Loading...</div>
+      <div id="error" class="message error" hidden></div>
     </div>
     <script src="app.js"></script>
-</body>
+  </body>
 </html>

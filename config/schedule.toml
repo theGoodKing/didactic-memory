@@ -1,0 +1,21 @@
+# Competition schedule. Times are local to the timezone in points.toml.
+# Challenges are only scraped while start <= now < cutoff; data is frozen after cutoff.
+# `week` sets the data folder (data/raw/week<N>/) - don't renumber weeks once scraped.
+
+[[weeks]]
+week = 1
+name = "British GP"
+slug = "british-gp"
+start = 2026-10-02T15:00:00
+cutoff = 2026-10-09T15:00:00
+gp_challenge = "tFN4SLgD0NsGExE8"
+sprint_challenge = "kQXWqei7n0MVuN1Z"
+
+[[weeks]]
+week = 2
+name = "European GP"
+slug = "european-gp"
+start = 2026-10-09T15:00:00
+cutoff = 2026-10-16T15:00:00
+gp_challenge = "V3ep5WgvSCr4Dn3b"
+sprint_challenge = "yTe7rvFixZWVyoP3"
