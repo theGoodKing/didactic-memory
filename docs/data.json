@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T11:21:33+01:00",
+  "generatedAt": "2026-10-02T14:12:36+01:00",
   "timezone": "Europe/London",
   "standings": [],
   "weeks": [
@@ -7,7 +7,7 @@
       "week": 1,
       "name": "British GP",
       "slug": "british-gp",
-      "start": "2026-10-02T15:00:00+01:00",
+      "start": "2026-10-05T09:00:00+01:00",
       "cutoff": "2026-10-09T15:00:00+01:00",
       "status": "upcoming",
       "challenges": {
@@ -28,7 +28,7 @@
       "week": 2,
       "name": "European GP",
       "slug": "european-gp",
-      "start": "2026-10-09T15:00:00+01:00",
+      "start": "2026-10-12T09:00:00+01:00",
       "cutoff": "2026-10-16T15:00:00+01:00",
       "status": "upcoming",
       "challenges": {
@@ -40,6 +40,111 @@
         "gp": {
           "id": "V3ep5WgvSCr4Dn3b",
           "url": "https://www.geoguessr.com/challenge/V3ep5WgvSCr4Dn3b",
+          "participants": 0
+        }
+      },
+      "results": []
+    },
+    {
+      "week": 3,
+      "name": "I Saw the Sign GP",
+      "slug": "isawsign-gp",
+      "start": "2026-10-19T09:00:00+01:00",
+      "cutoff": "2026-10-23T15:00:00+01:00",
+      "status": "upcoming",
+      "challenges": {
+        "sprint": {
+          "id": "IHoqBnNyduqfzK6z",
+          "url": "https://www.geoguessr.com/challenge/IHoqBnNyduqfzK6z",
+          "participants": 0
+        },
+        "gp": {
+          "id": "jRjhjnBNl35RKpbY",
+          "url": "https://www.geoguessr.com/challenge/jRjhjnBNl35RKpbY",
+          "participants": 0
+        }
+      },
+      "results": []
+    },
+    {
+      "week": 4,
+      "name": "Creepy & Weird GP",
+      "slug": "creepyweird-gp",
+      "start": "2026-10-26T09:00:00+00:00",
+      "cutoff": "2026-10-30T15:00:00+00:00",
+      "status": "upcoming",
+      "challenges": {
+        "sprint": {
+          "id": "IHoqBnNyduqfzK6z",
+          "url": "https://www.geoguessr.com/challenge/IHoqBnNyduqfzK6z",
+          "participants": 0
+        },
+        "gp": {
+          "id": "c66zOCWTaqqxN6DQ",
+          "url": "https://www.geoguessr.com/challenge/c66zOCWTaqqxN6DQ",
+          "participants": 0
+        }
+      },
+      "results": []
+    },
+    {
+      "week": 5,
+      "name": "US GP",
+      "slug": "unitedstates-gp",
+      "start": "2026-11-02T09:00:00+00:00",
+      "cutoff": "2026-11-06T15:00:00+00:00",
+      "status": "upcoming",
+      "challenges": {
+        "sprint": {
+          "id": "8kKaRcf15Vv7VbHo",
+          "url": "https://www.geoguessr.com/challenge/8kKaRcf15Vv7VbHo",
+          "participants": 0
+        },
+        "gp": {
+          "id": "uOO7I3CeiDOV4qSz",
+          "url": "https://www.geoguessr.com/challenge/uOO7I3CeiDOV4qSz",
+          "participants": 0
+        }
+      },
+      "results": []
+    },
+    {
+      "week": 6,
+      "name": "Pinpointable GP",
+      "slug": "pinpointable-gp",
+      "start": "2026-11-09T09:00:00+00:00",
+      "cutoff": "2026-11-13T15:00:00+00:00",
+      "status": "upcoming",
+      "challenges": {
+        "sprint": {
+          "id": "SlwqrFuxQ1vZ4nf2",
+          "url": "https://www.geoguessr.com/challenge/SlwqrFuxQ1vZ4nf2",
+          "participants": 0
+        },
+        "gp": {
+          "id": "pEjRe3AO16pM1tHd",
+          "url": "https://www.geoguessr.com/challenge/pEjRe3AO16pM1tHd",
+          "participants": 0
+        }
+      },
+      "results": []
+    },
+    {
+      "week": 7,
+      "name": "Transport GP",
+      "slug": "transport-gp",
+      "start": "2026-11-16T09:00:00+00:00",
+      "cutoff": "2026-11-20T15:00:00+00:00",
+      "status": "upcoming",
+      "challenges": {
+        "sprint": {
+          "id": "749M4eq9OwPIK6q5",
+          "url": "https://www.geoguessr.com/challenge/749M4eq9OwPIK6q5",
+          "participants": 0
+        },
+        "gp": {
+          "id": "WHdjY7e0CvEbPHx7",
+          "url": "https://www.geoguessr.com/challenge/WHdjY7e0CvEbPHx7",
           "participants": 0
         }
       },
