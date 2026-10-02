@@ -6,7 +6,7 @@
 week = 1
 name = "British GP"
 slug = "british-gp"
-start = 2026-10-02T15:00:00
+start = 2026-10-05T09:00:00
 cutoff = 2026-10-09T15:00:00
 gp_challenge = "tFN4SLgD0NsGExE8"
 sprint_challenge = "kQXWqei7n0MVuN1Z"
@@ -15,7 +15,52 @@ sprint_challenge = "kQXWqei7n0MVuN1Z"
 week = 2
 name = "European GP"
 slug = "european-gp"
-start = 2026-10-09T15:00:00
+start = 2026-10-12T09:00:00
 cutoff = 2026-10-16T15:00:00
 gp_challenge = "V3ep5WgvSCr4Dn3b"
 sprint_challenge = "yTe7rvFixZWVyoP3"
+
+[[weeks]]
+week = 3
+name = "I Saw the Sign GP"
+slug = "isawsign-gp"
+start = 2026-10-19T09:00:00
+cutoff = 2026-10-23T15:00:00
+gp_challenge = "jRjhjnBNl35RKpbY"
+sprint_challenge = "IHoqBnNyduqfzK6z"
+
+[[weeks]]
+week = 4
+name = "Creepy & Weird GP"
+slug = "creepyweird-gp"
+start = 2026-10-26T09:00:00
+cutoff = 2026-10-30T15:00:00
+gp_challenge = "c66zOCWTaqqxN6DQ"
+sprint_challenge = "IHoqBnNyduqfzK6z"
+
+[[weeks]]
+week = 5
+name = "US GP"
+slug = "unitedstates-gp"
+start = 2026-11-02T09:00:00
+cutoff = 2026-11-06T15:00:00
+gp_challenge = "uOO7I3CeiDOV4qSz"
+sprint_challenge = "8kKaRcf15Vv7VbHo"
+
+[[weeks]]
+week = 6
+name = "Pinpointable GP"
+slug = "pinpointable-gp"
+start = 2026-11-09T09:00:00
+cutoff = 2026-11-13T15:00:00
+gp_challenge = "pEjRe3AO16pM1tHd"
+sprint_challenge = "SlwqrFuxQ1vZ4nf2"
+
+[[weeks]]
+week = 7
+name = "Transport GP"
+slug = "transport-gp"
+start = 2026-11-16T09:00:00
+cutoff = 2026-11-20T15:00:00
+gp_challenge = "WHdjY7e0CvEbPHx7"
+sprint_challenge = "749M4eq9OwPIK6q5"
