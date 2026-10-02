@@ -77,7 +77,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderTabs() {
-    tabs.replaceChildren(makeTab("standings", "Standings"));
+    const standingsTab = makeTab("standings", "Standings");
+    standingsTab.classList.add("tab-pinned");
+    tabs.replaceChildren(standingsTab);
     [...data.weeks]
       .sort((a, b) => a.week - b.week)
       .forEach((week) => {
@@ -106,8 +108,14 @@ document.addEventListener("DOMContentLoaded", () => {
     tabs.querySelectorAll("a").forEach((a) => {
       const active = a.dataset.slug === resolved;
       a.classList.toggle("active", active);
-      if (active) a.setAttribute("aria-current", "page");
-      else a.removeAttribute("aria-current");
+      if (active) {
+        a.setAttribute("aria-current", "page");
+        if (!a.classList.contains("tab-pinned")) {
+          a.scrollIntoView({ block: "nearest", inline: "nearest" });
+        }
+      } else {
+        a.removeAttribute("aria-current");
+      }
     });
     renderMeta();
     renderHeaders();
